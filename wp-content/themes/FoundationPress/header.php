@@ -14,42 +14,80 @@
 	<head>
 		<meta charset="<?php bloginfo( 'charset' ); ?>" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 		<?php wp_head(); ?>
 	</head>
+
 	<body <?php body_class(); ?>>
 	<?php do_action( 'foundationpress_after_body' ); ?>
-
-	<?php if ( get_theme_mod( 'wpt_mobile_menu_layout' ) === 'offcanvas' ) : ?>
-	<div class="off-canvas-wrapper">
-		<div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
-		<?php get_template_part( 'template-parts/mobile-off-canvas' ); ?>
-	<?php endif; ?>
-
 	<?php do_action( 'foundationpress_layout_start' ); ?>
 
-	<header id="masthead" class="site-header" role="banner">
-		<div class="title-bar" data-responsive-toggle="site-navigation">
-			<button class="menu-icon" type="button" data-toggle="mobile-menu"></button>
-			<div class="title-bar-title">
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
-			</div>
-		</div>
 
-		<nav id="site-navigation" class="main-navigation top-bar" role="navigation">
-			<div class="top-bar-left">
-				<ul class="menu">
-					<li class="home"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></li>
-				</ul>
-			</div>
-			<div class="top-bar-right">
-				<?php foundationpress_top_bar_r(); ?>
-
-				<?php if ( ! get_theme_mod( 'wpt_mobile_menu_layout' ) || get_theme_mod( 'wpt_mobile_menu_layout' ) === 'topbar' ) : ?>
-					<?php get_template_part( 'template-parts/mobile-top-bar' ); ?>
-				<?php endif; ?>
+<div id="header" class="fixed transition">
+	<header class="row no-max pad main">
+		<nav id="mainnav" class="mainnav" role="navigation">
+			<ul class="menu">
+				<style media="screen">
+				div.fullscreenmenu ul.nav-menu{
+					margin-top: 100px !important;
+				}
+				.animateddrawer{
+					display: none !important;
+				}
+				div.fullscreenmenu ul.nav-menu li{
+				  border-bottom: none !important;
+				}
+				.navcontent{
+					padding: 1%;
+				}
+				div.fullscreenmenu ul.nav-menu li a{
+					font-size: 110%;
+					text-transform: uppercase;
+					padding: 10px 0 !important;
+				}
+				div.fullscreenmenu ul.nav-menu li a[href="http://198.58.102.147/pbl_birth_injury/practice_area/statutes-of-limitation/"],
+				div.fullscreenmenu ul.nav-menu li a[href="http://198.58.102.147/pbl_birth_injury/practice_area/cerebral-palsy/"],
+				div.fullscreenmenu ul.nav-menu li a[href="http://198.58.102.147/pbl_birth_injury/practice_area/injuries-to-children/"],
+				div.fullscreenmenu ul.nav-menu li a[href="http://www.medicalmalpracticeattorneyinfo.com/"] {
+					font-size: 75% !important;
+					padding: 8px 0 !important;
+				}
+				@media screen and (max-width: 850px){
+					#schedule{
+						display: none;
+					}
+				}
+				@media screen and (max-width: 425px){
+					.desk-logo{
+						width: 75%;
+					}
+					.nav-menu li a{
+						font-size: 80%;
+					}
+					.fa-bars{
+						top: 20px;
+						right: 30px;
+					}
+					div.fullscreenmenu ul.nav-menu li a{
+						font-size: 110%;
+						text-transform: uppercase;
+						padding: 5px 0 !important;
+					}
+				}
+				</style>
+				<li class="home"><a class="desk-logo" href="<?php bloginfo('url'); ?>"><img src="http://localhost:88/Skintherapy/wp-content/uploads/2017/02/logo.png" width="300" style="z-index: 5; opacity: 1;"alt="<?php bloginfo('name'); ?>"/></a></li>
+				<i class="fa fa-bars fa-3x"  onclick="menu1.togglemenu(); return false"></i>
+			</ul>
+			<div class="navi hide">
+				<?php
+					$defaults = array(
+						'container' => false,
+						'theme_location' => 'primary-menu',
+						'menu_class' => 'no-bullet menu sticky cap'
+					);
+					wp_nav_menu($defaults)
+				 ?>
 			</div>
 		</nav>
 	</header>
-
-	<section class="container">
-		<?php do_action( 'foundationpress_after_header' );
+</div>
