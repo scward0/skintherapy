@@ -26,58 +26,15 @@
 <div id="header" class="fixed transition">
 	<header class="row no-max pad main">
 		<nav id="mainnav" class="mainnav" role="navigation">
-			<ul class="menu">
-				<style media="screen">
-				div.fullscreenmenu ul.nav-menu{
-					margin-top: 100px !important;
-				}
-				.animateddrawer{
-					display: none !important;
-				}
-				div.fullscreenmenu ul.nav-menu li{
-				  border-bottom: none !important;
-				}
-				.navcontent{
-					padding: 1%;
-				}
-				div.fullscreenmenu ul.nav-menu li a{
-					font-size: 110%;
-					text-transform: uppercase;
-					padding: 10px 0 !important;
-				}
-				div.fullscreenmenu ul.nav-menu li a[href="http://198.58.102.147/pbl_birth_injury/practice_area/statutes-of-limitation/"],
-				div.fullscreenmenu ul.nav-menu li a[href="http://198.58.102.147/pbl_birth_injury/practice_area/cerebral-palsy/"],
-				div.fullscreenmenu ul.nav-menu li a[href="http://198.58.102.147/pbl_birth_injury/practice_area/injuries-to-children/"],
-				div.fullscreenmenu ul.nav-menu li a[href="http://www.medicalmalpracticeattorneyinfo.com/"] {
-					font-size: 75% !important;
-					padding: 8px 0 !important;
-				}
-				@media screen and (max-width: 850px){
-					#schedule{
-						display: none;
-					}
-				}
-				@media screen and (max-width: 425px){
-					.desk-logo{
-						width: 75%;
-					}
-					.nav-menu li a{
-						font-size: 80%;
-					}
-					.fa-bars{
-						top: 20px;
-						right: 30px;
-					}
-					div.fullscreenmenu ul.nav-menu li a{
-						font-size: 110%;
-						text-transform: uppercase;
-						padding: 5px 0 !important;
-					}
-				}
-				</style>
-				<li class="home"><a class="desk-logo" href="<?php bloginfo('url'); ?>"><img src="http://localhost:88/Skintherapy/wp-content/uploads/2017/02/logo.png" width="300" style="z-index: 5; opacity: 1;"alt="<?php bloginfo('name'); ?>"/></a></li>
-				<i class="fa fa-bars fa-3x"  onclick="menu1.togglemenu(); return false"></i>
-			</ul>
+			<div class="home" id="logo"><a href="<?php bloginfo('url'); ?>"><img src="http://localhost:88/Skintherapy/wp-content/uploads/2017/02/logo.png" width="300" style="z-index: 5; opacity: 1;"alt="<?php bloginfo('name'); ?>"/></a></div>
+			<div id="hamburger">
+				<div id="nav-icon3">
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
 			<div class="navi hide">
 				<?php
 					$defaults = array(
