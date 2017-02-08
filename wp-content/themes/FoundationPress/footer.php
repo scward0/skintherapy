@@ -54,6 +54,8 @@
 
 		if($(window).width() > 768){
 
+			console.log(wS);
+
 			var hT = $('#road-map-steps').offset().top,
          hH = $('#road-map-steps').outerHeight(),
          wH = $(window).height(),
@@ -64,9 +66,13 @@
 			$('.up').addClass('hide');
 			$('.right').addClass('hide');
 
+			console.log(Math.round(hT+hH-wH-300))
 
+			console.log(Math.round(wS));
 
-			if (Math.round(wS) < (hT+hH-wH-400)){
+			console.log(Math.round(hT+hH-wH-300))
+
+			if (Math.round(wS) < (Math.round(hT+hH-wH-300))){
 				$('.up').removeClass('animated fadeInLeft');
 				$('.up').removeClass('animated fadeInUp');
 				$('.right').removeClass('animated fadeInRight');
