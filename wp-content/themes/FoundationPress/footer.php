@@ -34,11 +34,69 @@
 //]]></script>
 
 <script type="text/javascript">
-$(document).ready(function(){
-$('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
-	$(this).toggleClass('open');
-});
-});
+	$(document).ready(function(){
+
+		$('#headline1').toggleClass('animated fadeIn');
+
+		$('#nav-icon3').click(function(){
+			$(this).toggleClass('open');
+		});
+	});
+
+	$(window).scroll(function() {
+
+	if ($(this).scrollTop() > 50) {// can be whatever, 0 refers to the top space you allow
+			$('#header').addClass('header-white');
+		}
+		else {
+			$('#header').removeClass('header-white');
+		}
+
+		if($(window).width() > 768){
+
+			var hT = $('#road-map-steps').offset().top,
+         hH = $('#road-map-steps').outerHeight(),
+         wH = $(window).height(),
+         wS = $(this).scrollTop(),
+         windowWidth = $(window).width();
+
+			$('.left').addClass('hide');
+			$('.up').addClass('hide');
+			$('.right').addClass('hide');
+
+
+
+			if (Math.round(wS) < (hT+hH-wH-400)){
+				$('.up').removeClass('animated fadeInLeft');
+				$('.up').removeClass('animated fadeInUp');
+				$('.right').removeClass('animated fadeInRight');
+				$('.in').removeClass('animated fadeIn');
+
+				$('.left').addClass('hide');
+				$('.up').addClass('hide');
+				$('.right').addClass('hide');
+				$('.in').addClass('hide');
+			}
+
+			if (Math.round(wS) > (hT+hH-wH-400)){
+				$('.left').removeClass('hide');
+				$('.up').removeClass('hide');
+				$('.right').removeClass('hide');
+				$('.in').removeClass('hide');
+
+				$('.left').addClass('animated  fadeInLeft');
+				$('.up').addClass('animated  fadeInUp');
+				$('.right').addClass('animated fadeInRight');
+				$('.in').addClass('animated fadeIn');
+			}
+		}
+	});
+
+	$('.button').hover(
+	function(){$(this).toggleClass('animated pulse');}
+	);
+
+
 </script>
 </body>
 </html>

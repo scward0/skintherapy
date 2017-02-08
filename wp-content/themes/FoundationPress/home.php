@@ -5,18 +5,20 @@
   <?php get_header(); ?>
   <div class="headline" id="headline1">
     <div class="headline-border">
-      <?php the_field('headline') ?>
+      <?php the_field('headline'); ?>
     </div>
   </div>
 </div>
+<div class="mobile-subhead hide-for-large" style="margin-top: 100px; font-size: 18px; padding: 2%;">
+  <?php the_field('mobile_subhead'); ?>
+</div>
 
-<section class="no-max" id="road-map">
+
+
+<section class="no-max" id="road-map" style="background: url('<?php the_field('background_2') ?>'); margin-top: 200px; height: 80%; background-size: cover;">
   <div class="headline headline2">
     <div class="headline-border">
-      <p class="text-center subhead">
-        our road map to
-      </p>
-      <h1 class="text-center">clear skin</h1>
+      <?php the_field('headline_2') ?>
     </div>
   </div>
 </section>
@@ -24,55 +26,58 @@
 <section class="no-max container" id="road-map-steps">
   <div class="row">
     <div class="columns small-12 medium-4 large-4">
-      <h4>1. talk</h4>
-      <p>We provide you with the tools and knowledge to identify what is irritating for your skin.</p>
-      <img src="http://localhost:88/Skintherapy/wp-content/uploads/2017/02/talk.png" alt="">
+      <div class="left">
+        <h4>1. talk</h4>
+        <p>We provide you with the tools and knowledge to identify what is irritating for your skin.</p>
+        <img src="http://localhost:88/Skintherapy/wp-content/uploads/2017/02/talk.png" alt="">
+      </div>
     </div>
-    <div class="columns small-12 medium-4 large-4">
-      <img src="http://localhost:88/Skintherapy/wp-content/uploads/2017/02/treat.png" alt="">
+    <div class="columns small-12 medium-4 large-4 hide-for-small-only">
+      <div class="up">
+        <img src="http://localhost:88/Skintherapy/wp-content/uploads/2017/02/treat.png" alt="">
+        <h4>2. treat</h4>
+        <p>We creat a long-term skin care program just for you, based on your skin and acne type.</p>
+      </div>
+    </div>
+    <div class="columns small-12 show-for-small-only">
       <h4>2. treat</h4>
       <p>We creat a long-term skin care program just for you, based on your skin and acne type.</p>
+      <img src="http://localhost:88/Skintherapy/wp-content/uploads/2017/02/treat.png" alt="">
     </div>
     <div class="columns small-12 medium-4 large-4">
-      <h4>3. clear</h4>
-      <p>We follow up and fine tune your skin care plan to achieve results</p>
-      <img src="http://localhost:88/Skintherapy/wp-content/uploads/2017/02/clear.png" alt="">
+      <div class="right">
+        <h4>3. clear</h4>
+        <p>We follow up and fine tune your skin care plan to achieve results</p>
+        <img src="http://localhost:88/Skintherapy/wp-content/uploads/2017/02/clear.png" alt="">
+      </div>
     </div>
   </div>
-  <div class="row text-center">
+  <div class="row text-center in">
     <button class="button small">LEARN MORE</button>
   </div>
 </section>
 
-<section class="no- max container" id="book">
+<section class="no- max container" id="book" style="background: url('<?php the_field('background_3') ?>'); margin-top: 200px; height: 80%; background-size: cover;">
   <div class="headline headline3">
     <div class="headline-border">
-      <h3 class="text-center">Acne Specialists <img src="http://localhost:88/Skintherapy/wp-content/uploads/2017/02/unnamed-file.png" alt="" width="100px"> Skin Care Experts</h3>
-      <button id="book-now" class="button small">BOOK NOW</button>
+      <?php the_field('headline_3') ?>
     </div>
   </div>
 </section>
 
-<section class="no- max container" id="omega">
+<section class="no- max container" id="omega" style="background: url('<?php the_field('background_4') ?>'); margin-top: 200px; height: 80%; background-size: cover;">
   <div class="headline headline3">
     <div class="headline-border">
-      <h3 class="text-center">omega 3 fish oils/ DHA</h3>
-      <p>FAQs on all the ways fish oils can benefit your skin, body and mind.</p>
-      <div class="text-center">
-        <button id="read-the-latest" class="button small">READ THE LATEST</button>
-      </div>
+      <?php the_field('headline_4') ?>
     </div>
   </div>
 </section>
 
-<section class="no- max container" id="cream">
+<section class="no- max container" id="cream" style="background: url('<?php the_field('background_5') ?>');  margin-top: 200px; height: 80%; background-size: cover;">
   <div class="headline headline3">
     <div class="headline-border">
-      <h3 class="text-center">acne cream 10%</h3>
-      <p>This cream is formulated without pore cloggers unline many popular acne treatments.</p>
-      <div class="text-center">
-        <button id="online-store" class="button small">ONLINE STORE</button>
-      </div>
+      <?php the_field('headline_5') ?>
+    </div>
   </div>
 </section>
 

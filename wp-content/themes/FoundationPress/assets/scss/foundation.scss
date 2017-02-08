@@ -106,6 +106,15 @@ body, html {
   max-width: 100%;
 }
 
+h1{
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+}
+p{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
 .no-max.pad {
   padding-left: 10px;
   padding-right: 10px;
@@ -124,7 +133,7 @@ body {
   top: 0;
   width: 100%;
   z-index: 5;
-	height: 100px !important;
+	height: 140px !important;
 }
 
 #logo{
@@ -133,6 +142,18 @@ body {
   left: 20px
 }
 
+@media screen and (max-width: 470px){
+  #logo{
+    width: 200px;
+  }
+  #header{
+    background: white;
+  }
+}
+
+.header-white{
+  background: white !important;
+}
 
 #hamburger{
   color: black;
@@ -147,7 +168,7 @@ body {
 
 /* Icon 1 */
 
-#nav-icon1, #nav-icon2, #nav-icon3, #nav-icon4 {
+ #nav-icon3 {
   width: 60px;
   height: 45px;
   position: relative;
@@ -256,8 +277,16 @@ body {
   left: 50%;
 }
 
-
-
+@media screen and (max-width: 470px){
+  #hamburger{
+    right: 25px;
+  }
+  #nav-icon3 {
+   width: 50px;
+   height: 30px;
+   top: -15px;
+ }
+}
 
 
 .headline{
@@ -274,20 +303,20 @@ body {
 }
 .headline h1{
   color: black;
-  font-size: 48px;
-  text-transform: uppercase;
+  font-size: 62px;
   padding: 0;
   margin: 0;
-  line-height: 40px;
-	letter-spacing: 5px;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
 }
 .headline p{
   color: black;
-  font-size: 15px;
-  text-transform: uppercase;
+  font-size: 18px;
   padding: 0 30px;
   margin: 0;
-	letter-spacing: 3px;
+}
+.subhead{
+  font-size: 24px !important;
 }
 .button{
   background-color: black !important;
@@ -298,10 +327,11 @@ body {
 }
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1024px){
   .headline{
-    top: 75%;
-    padding: 2%;
+    width: 70%;
+    top: 90%;
+    left: 50%;
   }
   .headline h1{
     font-size: 36px;
@@ -314,7 +344,6 @@ body {
 
 @media screen and (max-width: 425px){
   .headline{
-		top: 60%;
 		width: 85% !important;
 		padding: 2%;
   }
@@ -322,7 +351,6 @@ body {
 
 @media screen and (max-width: 321px){
 	.headline{
-    top: 65%;
     padding: 2%;
   }
 }
@@ -331,7 +359,6 @@ body {
 
 #road-map{
   margin-top: 200px;
-  background: url('http://localhost:88/Skintherapy/wp-content/uploads/2017/02/road-map.png');
   height: 80%;
   background-size: cover;
 }
@@ -343,6 +370,7 @@ body {
   background: white;
   padding: 50px;
 }
+
 
 
 
@@ -360,7 +388,6 @@ body {
 
  #book{
    margin-top: 200px;
-   background: url('http://localhost:88/Skintherapy/wp-content/uploads/2017/02/room.png');
    height: 80%;
    background-size: cover;
  }
@@ -369,39 +396,33 @@ body {
    top: 50%;
    left: 50%;
    background: white;
-   padding: 50px;
- }
- #book-now{
-   position: relative;
-   top: 100px;
- }
-
-
-
-
- #omega{
-   margin-top: 200px;
-   background: url('http://localhost:88/Skintherapy/wp-content/uploads/2017/02/omega.png');
-   height: 80%;
-   background-size: cover;
  }
  #read-the-latest{
    position: relative;
-   top: 100px;
+   top: 45px;
  }
 
+ #omega, #cream{
 
-
-
- #cream{
-   margin-top: 200px;
-   background: url('http://localhost:88/Skintherapy/wp-content/uploads/2017/02/acnecream.png');
-   height: 80%;
-   background-size: cover;
  }
- #online-store{
+ #read-the-latest{
    position: relative;
-   top: 100px;
+   top: 45px;
+ }
+
+
+ #omega h3, #cream h3{
+   color: black;
+   font-size:48px;
+   padding: 0;
+   margin: 0;
+   font-family: 'Playfair Display', serif;
+   font-weight: bold;
+ }
+
+ #read-the-latest{
+   position: relative;
+   top: 45px;
  }
 
 

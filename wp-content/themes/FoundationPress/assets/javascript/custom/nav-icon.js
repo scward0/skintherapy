@@ -5,10 +5,16 @@ $(document).ready(function(){
 	});
 
 
-  $('a.button').hover(function(){
-    $(this).toggleClass('animated pulse');
 
 
+	$(window).scroll(function() {
+	if ($(this).scrollTop() > 50) {// can be whatever, 0 refers to the top space you allow
+				$('#header').addClass('header-white');
+				Console.log('hey');
+		}
+		else {
+				$('#header').removeClass('header-white');
+		}
+	});
 
-  });
 });

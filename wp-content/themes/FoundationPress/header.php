@@ -15,6 +15,8 @@
 		<meta charset="<?php bloginfo( 'charset' ); ?>" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 		<?php wp_head(); ?>
 	</head>
 
@@ -26,7 +28,7 @@
 <div id="header" class="fixed transition">
 	<header class="row no-max pad main">
 		<nav id="mainnav" class="mainnav" role="navigation">
-			<div class="home" id="logo"><a href="<?php bloginfo('url'); ?>"><img src="http://localhost:88/Skintherapy/wp-content/uploads/2017/02/logo.png" width="300" style="z-index: 5; opacity: 1;"alt="<?php bloginfo('name'); ?>"/></a></div>
+			<div class="home" ><a href="<?php bloginfo('url'); ?>"><img src="http://localhost:88/Skintherapy/wp-content/uploads/2017/02/logo.png" width="300" alt="<?php bloginfo('name'); ?>" id="logo"/></a></div>
 			<div id="hamburger">
 				<div id="nav-icon3">
 					<span></span>
