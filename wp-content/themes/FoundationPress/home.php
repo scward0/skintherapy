@@ -66,7 +66,7 @@
 </section>
 
 <section class="no- max container" id="omega" style="background: url('<?php the_field('background_4') ?>'); margin-top: 200px; height: 80%; background-size: cover;">
-  <div class="headline headline3">
+  <div class="headline headline4">
     <div class="headline-border">
       <?php the_field('headline_4') ?>
     </div>
@@ -74,7 +74,7 @@
 </section>
 
 <section class="no- max container" id="cream" style="background: url('<?php the_field('background_5') ?>');  margin-top: 200px; height: 80%; background-size: cover;">
-  <div class="headline headline3">
+  <div class="headline headline5">
     <div class="headline-border">
       <?php the_field('headline_5') ?>
     </div>
