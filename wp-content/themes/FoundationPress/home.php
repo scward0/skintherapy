@@ -13,8 +13,6 @@
   <?php the_field('mobile_subhead'); ?>
 </div>
 
-
-
 <section class="no-max" id="road-map" style="background: url('<?php the_field('background_2') ?>'); margin-top: 200px; height: 80%; background-size: cover;">
   <div class="headline headline2">
     <div class="headline-border">

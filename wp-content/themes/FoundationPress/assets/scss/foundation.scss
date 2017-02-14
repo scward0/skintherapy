@@ -106,7 +106,7 @@ body, html {
   max-width: 100%;
 }
 
-h1{
+h1, h2, h3{
   font-family: 'Playfair Display', serif;
   font-weight: bold;
 }
@@ -174,8 +174,8 @@ body {
 /* Icon 1 */
 
  #nav-icon3 {
-  width: 60px;
-  height: 45px;
+  width: 50px;
+  height: 30px;
   position: relative;
   margin: 50px auto;
   -webkit-transform: rotate(0deg);
@@ -498,8 +498,8 @@ body {
 
 
 .title-hr{
-	width: 50px;
-	border-bottom: 5px solid #DC8623;
+	width: 100px;
+	border-bottom: 3px solid #EC008C;
 	padding: 0;
 	margin: 0;
 	line-height: 0;
@@ -529,4 +529,43 @@ body {
 	font-family: Arial !important;
 
   font-weight: bold;
+}
+
+
+
+
+
+
+
+.secondary-headline{
+  width: 80%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  background: white;
+  padding: 50px;
+}
+
+.secondary p, ul {
+  font-size: 16px !important;
+  padding: 0 50px !important;
+
+}
+.secondary ul {
+  font-weight: bold;
+}
+.secondary-headline2{
+  border: 5px solid black !important;
+  width: 50% !important;
+  margin: 150px auto 50px auto !important;
+  padding: 20px !important;
+}
+
+.secondary-headline2 h1 {
+  font-size: 48px !important;
+  line-height: 40px !important;
+}
+
+.secondary-headline2 p {
+  font-size: 26px !important;
 }

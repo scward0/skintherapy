@@ -36,7 +36,6 @@
 <script type="text/javascript">
 	$(document).ready(function(){
 
-
 		$('#headline1').addClass('hide');
 		$('#button1').addClass('invisible');
 		setTimeout(function() { $('#headline1').removeClass('hide').addClass('animated fadeIn'); }, 2000);
@@ -45,7 +44,6 @@
 		$('#nav-icon3').click(function(){
 
 			if ($(this).hasClass('open') ) {
-				console.log('close');
 				$(this).removeClass('open');
 				$('#menu').removeClass('fadeIn');
 				$('#menu').addClass('hide fadeOut');
@@ -80,7 +78,7 @@
 				$('.up').addClass('invisible');
 				$('.right').addClass('invisible');
 
-				if (Math.round(wS) < (Math.round(hT+hH-wH-300))){
+				if (Math.round(wS) < (Math.round(hT+hH-wH-250))){
 					$('.left').removeClass('animated fadeInLeft');
 					$('.up').removeClass('animated fadeInUp');
 					$('.right').removeClass('animated fadeInRight');
@@ -92,7 +90,7 @@
 					$('.in').addClass('invisible');
 				}
 
-				if (Math.round(wS) > (hT+hH-wH-400)){
+				if (Math.round(wS) > (hT+hH-wH-250)){
 					$('.left').removeClass('invisible');
 					$('.up').removeClass('invisible');
 					$('.right').removeClass('invisible');
@@ -103,8 +101,6 @@
 					$('.right').addClass('animated fadeInRight');
 					$('.in').addClass('animated fadeIn');
 				}
-
-
 
 
 				// headline2
@@ -127,9 +123,7 @@
 					$('.headline2').addClass('animated fadeIn');
 				}
 
-
 				// headline3
-
 
 				var hT3 = $('.headline3').offset().top,
 					 hH3 = $('.headline3').outerHeight(),
@@ -151,7 +145,6 @@
 
 
 				// headline4
-
 
 				var hT4 = $('.headline4').offset().top,
 					 hH4 = $('.headline4').outerHeight(),
@@ -194,8 +187,6 @@
 					$('.headline5').addClass('animated fadeIn');
 				}
 
-
-
 			}
 		});
 
@@ -204,9 +195,6 @@
 		);
 
 	});
-
-
-
 
 </script>
 </body>
