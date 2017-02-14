@@ -36,10 +36,13 @@
 <script type="text/javascript">
 	$(document).ready(function(){
 
-		$('#headline1').addClass('hide');
+		$('#headline1').addClass('invisible');
 		$('#button1').addClass('invisible');
-		setTimeout(function() { $('#headline1').removeClass('hide').addClass('animated fadeIn'); }, 2000);
+		setTimeout(function() { $('#headline1').removeClass('invisible').addClass('animated fadeIn'); }, 2000);
 		setTimeout(function() { $('#button1').removeClass('invisible').addClass('animated fadeIn'); }, 3500);
+
+		$('.secondary-headline').addClass('invisible');
+		setTimeout(function() { $('.secondary-headline').removeClass('invisible').addClass('animated fadeIn'); }, 2000);
 
 		$('#nav-icon3').click(function(){
 

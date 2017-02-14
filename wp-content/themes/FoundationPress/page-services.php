@@ -1,11 +1,11 @@
 
 <?php /* Template Name: Secondary Page */ ?>
 
-<div class="container secondary">
+<div class="container ">
   <?php get_header(); ?>
   <img src="<?php the_field('hero'); ?>" width="100%" alt="">
 
-  <div class="row">
+  <div class="row secondary">
     <div class="headline secondary-headline">
       <div class="headline-border">
         <?php the_field('headline'); ?>
@@ -13,7 +13,7 @@
     </div>
   </div>
 
-  <div class="row">
+  <div class="row secondary">
     <div class="content">
       <?php the_field('content'); ?>
     </div>

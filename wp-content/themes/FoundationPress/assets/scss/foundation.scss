@@ -115,6 +115,10 @@ p{
   font-weight: bold;
 }
 
+button{
+  font-family: 'Quicksand', sans-serif !important;
+}
+
 .no-max.pad {
   padding-left: 10px;
   padding-right: 10px;
@@ -390,6 +394,8 @@ body {
 	position: relative;
 	top: 50px;
 	padding: 20px;
+  font-family: 'Quicksand', sans-serif;
+  color: #ffea59;
 }
 
 
@@ -535,28 +541,37 @@ body {
 
 
 
-
+.secondary p{
+  font-size: 16px;
+  padding: 0 200px;
+}
+.secondary ul {
+  font-weight: bold;
+  font-size: 16px;
+  padding: 0 200px;
+}
 
 .secondary-headline{
-  width: 80%;
+  width: 70%;
   position: relative;
   top: 50%;
   left: 50%;
   background: white;
-  padding: 50px;
+  padding: 20px;
+}
+.secondary-headline h1{
+  font-size: 80px !important;
+}
+.secondary-headline p{
+  font-size: 32px !important;
+  padding: 0 !important;
 }
 
-.secondary p, ul {
-  font-size: 16px !important;
-  padding: 0 50px !important;
 
-}
-.secondary ul {
-  font-weight: bold;
-}
+
 .secondary-headline2{
   border: 5px solid black !important;
-  width: 50% !important;
+  width: 40% !important;
   margin: 150px auto 50px auto !important;
   padding: 20px !important;
 }
@@ -568,4 +583,5 @@ body {
 
 .secondary-headline2 p {
   font-size: 26px !important;
+  padding: 0 !important;
 }

@@ -1,7 +1,7 @@
 
 <?php /* Template Name: Secondary Page */ ?>
 
-<div class="container secondary">
+<div class="container secondary secondary">
   <?php get_header(); ?>
   <img src="<?php the_field('hero'); ?>" width="100%" alt="">
 
