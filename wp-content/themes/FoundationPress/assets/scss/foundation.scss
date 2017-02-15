@@ -119,11 +119,6 @@ button{
   font-family: 'Quicksand', sans-serif !important;
 }
 
-.no-max.pad {
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
 body {
   font-size: 62.5%;
   letter-spacing: 0.025em;
@@ -300,7 +295,7 @@ body {
 #menu{
   background: rgba(250, 250, 250, 0.9);
   width: 15%;
-  height: 50%;
+  height: 45%;
   position: fixed;
   top: 40.3%;
   right: 0%;
@@ -310,24 +305,18 @@ body {
 
 @media screen and (max-width: 1440px){
   #menu{
-    width: 20%;
-    height: 50%;
+    width: 22%;
+    height: 55%;
     top: 40.3%;
     right: 0%;
-
   }
 }
 
-.menu {
-  text-align: right;
-}
-
-.menu ul {
+#menu ul {
   list-style: none !important;
-  text-align: right;
 }
 
-.menu ul li a {
+#menu ul li a {
   font-weight: bold;
   font-size: 36px;
   color: black;
@@ -335,13 +324,11 @@ body {
   text-transform: uppercase;
 }
 
-.menu .active > a{
+.current-menu-item {
   color: black;
   background: none;
   border-bottom: solid 5px #EC008C;
 }
-
-
 
 .headline{
   background: rgba(250, 250, 250, 0.6);
@@ -354,6 +341,21 @@ body {
   border: 5px solid black;
   padding: 5% 0 0 0;
 }
+@media screen and (max-width: 1440px){
+  .headline{
+    width: 60%;
+    left: 32%;
+  }
+}
+@media screen and (max-width: 1024px){
+  .headline{
+    top: 60%;
+  }
+}
+
+
+
+
 .headline2{
   position: relative;
   top: 100%;
@@ -367,8 +369,12 @@ body {
   left: 50%;
   background: white;
   padding: 50px;
+  height: 35%;
 }
 
+.headline3{
+  width: 50%;
+}
 
 
 .headline h1{
@@ -402,7 +408,7 @@ body {
 @media screen and (max-width: 1024px){
   .headline{
     width: 70%;
-    top: 90%;
+    top: 80%;
     left: 50%;
   }
   .headline h1{
@@ -434,12 +440,6 @@ body {
   height: 80%;
   background-size: cover;
 }
-
-
-
-
-
-
 #road-map-steps{
   margin-top: 200px;
 }
@@ -449,6 +449,14 @@ body {
  #road-map-steps p{
    font-size: 16px;
  }
+.step{
+  padding: 10px;
+}
+@media screen and (max-width: 640){
+  padding: 10px;
+}
+
+
 
 
 
@@ -457,19 +465,19 @@ body {
    height: 80%;
    background-size: cover;
  }
+ #read-the-latest{
+   position: relative;
+   top: 45px;
+ }
 
  #read-the-latest{
    position: relative;
    top: 45px;
  }
 
- #omega, #cream{
 
- }
- #read-the-latest{
-   position: relative;
-   top: 45px;
- }
+
+
 
 
  #omega h3, #cream h3{
@@ -480,7 +488,6 @@ body {
    font-family: 'Playfair Display', serif;
    font-weight: bold;
  }
-
  #read-the-latest{
    position: relative;
    top: 45px;
@@ -494,6 +501,10 @@ body {
 #footer #right{
   text-align: left;
 }
+
+
+
+
 
 .transition {
   -webkit-transition: all 1s ease-in-out;
@@ -510,6 +521,7 @@ body {
 	margin: 0;
 	line-height: 0;
 	font-size:16px;
+  margin-bottom: 50px;
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -539,17 +551,40 @@ body {
 
 
 
+@media screen and (max-width: 1024px){
+  .hero{
+    margin-top: 140px;
+  }
+  #header{
+     background: white;
+  }
+}
+
+
+
 
 
 .secondary p{
   font-size: 16px;
   padding: 0 200px;
 }
+
+.secondary a{
+  font-size: 16px;
+  text-decoration: underline;
+  font-weight: 300;
+  color: black;
+}
+
 .secondary ul {
   font-weight: bold;
   font-size: 16px;
   padding: 0 200px;
 }
+
+
+
+
 
 .secondary-headline{
   width: 70%;
@@ -560,28 +595,88 @@ body {
   padding: 20px;
 }
 .secondary-headline h1{
-  font-size: 80px !important;
+  font-size: 80px;
 }
 .secondary-headline p{
-  font-size: 32px !important;
-  padding: 0 !important;
+  font-size: 32px;
+  padding: 0;
 }
+
+
 
 
 
 .secondary-headline2{
   border: 5px solid black !important;
-  width: 40% !important;
-  margin: 150px auto 50px auto !important;
-  padding: 20px !important;
+  width: 40%;
+  margin: 150px auto 50px auto;
+  padding: 20px;
 }
 
 .secondary-headline2 h1 {
-  font-size: 48px !important;
+  font-size: 48px;
   line-height: 40px !important;
 }
 
 .secondary-headline2 p {
   font-size: 26px !important;
   padding: 0 !important;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1205px){
+  .micro{
+    width: 60% !important;
+  }
+  .micro h1{
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .secondary p{
+    padding: 0 50px;
+  }
+  .secondary ul {
+    padding: 0 50px;
+  }
+}
+@media screen and (max-width: 780px){
+  .secondary-headline{
+    top: 75%;
+  }
+  .secondary-headline h1{
+    font-size: 60px;
+  }
+  .secondary-headline p{
+    font-size: 28px;
+    padding: 0;
+  }
+  .secondary-headline2 h1 {
+    font-size: 36px;
+    line-height: 36px;
+  }
+  .micro h1{
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 550px){
+  .secondary-headline2{
+    width: 70%;
+  }
+  .secondary-headline{
+    margin-top: 100px;
+  }
+}
+
+
+@media screen and (max-width: 450px){
+  .secondary-headline2{
+    width: 80%;
+  }
 }

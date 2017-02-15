@@ -46,7 +46,7 @@
 					$defaults = array(
 						'container' => false,
 						'theme_location' => 'primary-menu',
-						'menu_class' => 'no-bullet menu sticky cap'
+						'menu_class' => 'no-bullet menu vertical'
 					);
 					wp_nav_menu($defaults)
 				 ?>

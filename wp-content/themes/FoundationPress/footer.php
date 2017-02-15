@@ -1,4 +1,4 @@
-<section class="container" id="footer">
+<section class="container" id="footer" style="padding: 100px 0;">
 	<div class="row">
 		<div class="columns small-12 medium-4 large-4">
 			<p id="left">

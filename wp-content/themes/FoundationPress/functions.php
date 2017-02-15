@@ -49,3 +49,15 @@ require_once( 'library/responsive-images.php' );
 
 /** If your site requires protocol relative url's for theme assets, uncomment the line below */
 // require_once( 'library/protocol-relative-theme-assets.php' );
+
+
+
+
+function register_theme_menus(){
+  register_nav_menus(
+    array(
+      'primary-menu' => _( 'Primary Menu' )
+    )
+  );
+}
+add_action('init', 'register_theme_menus');

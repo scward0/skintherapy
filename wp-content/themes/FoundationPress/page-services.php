@@ -3,7 +3,7 @@
 
 <div class="container ">
   <?php get_header(); ?>
-  <img src="<?php the_field('hero'); ?>" width="100%" alt="">
+  <img class="hero" src="<?php the_field('hero'); ?>" width="100%" alt="">
 
   <div class="row secondary">
     <div class="headline secondary-headline">
