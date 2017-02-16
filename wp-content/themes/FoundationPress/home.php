@@ -13,18 +13,16 @@
     </div>
   </div>
 
-  <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-    <div class="row">
-      <div class="content">
-        <img src="<?php the_field('thumbnail'); ?>" alt="">
-        <h1><?php the_title(); ?></h1>
-      </div>
-    </div>
-  <?php endwhile; else : ?>
-  	<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
-  <?php endif; ?>
-
-
+  <div class="row">
+    <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+        <div class="columns small-12 medium-6 large-6">
+          <img src="<?php the_field('thumbnail'); ?>" alt="">
+          <h1><?php the_title(); ?></h1>
+        </div>
+    <?php endwhile; else : ?>
+    	<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+    <?php endif; ?>
+  </div>
 </div>
 
 <?php get_footer(); ?>
