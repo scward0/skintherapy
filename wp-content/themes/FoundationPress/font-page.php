@@ -76,7 +76,13 @@
 <section class="no- max container" id="cream" style="background: url('<?php the_field('background_5') ?>');  margin-top: 200px; height: 80%; background-size: cover;">
   <div class="headline headline5">
     <div class="headline-border">
-      <?php the_field('headline_5') ?>
+      <?php
+        $args = array( 'numberposts' => 3 );
+        $lastposts = get_posts( $args );
+        foreach($lastposts as $post) : setup_postdata($post); ?>
+        	<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+        	<?php the_content(); ?>
+        <?php endforeach; ?>
     </div>
   </div>
 </section>
