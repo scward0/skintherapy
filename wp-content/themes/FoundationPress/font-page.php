@@ -77,7 +77,7 @@
   <div class="headline headline5">
     <div class="headline-border">
       <?php
-        $args = array( 'numberposts' => 3 );
+        $args = array( 'numberposts' => 1 );
         $lastposts = get_posts( $args );
         foreach($lastposts as $post) : setup_postdata($post); ?>
         	<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
