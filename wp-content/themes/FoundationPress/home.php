@@ -1,11 +1,14 @@
 <div class="container">
   <?php get_header(); ?>
-  <img class="hero" src="<?php the_field('hero'); ?>" width="100%" alt="">
+  <img class="hero" src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/blog.png" width="100%" alt="">
 
   <div class="row secondary">
     <div class="headline secondary-headline">
       <div class="headline-border">
-        <?php the_field('headline'); ?>
+        <div class="text-center">
+          <p style="font-size: 16px;">education / blog</p>
+          <h1>Ask the Esthetician</h1>
+        </div>
       </div>
     </div>
   </div>
