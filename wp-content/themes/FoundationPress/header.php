@@ -32,7 +32,7 @@
 <div id="header" class="fixed transition">
 	<header class="row no-max pad main">
 		<nav id="mainnav" class="mainnav" role="navigation">
-			<div class="home" ><a href="<?php bloginfo('url'); ?>"><img src="http://localhost:88/Skintherapy/wp-content/uploads/2017/02/logo.png" width="300" alt="<?php bloginfo('name'); ?>" id="logo"/></a></div>
+			<div class="home" ><a href="<?php bloginfo('url'); ?>"><img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/logo.png" width="300" alt="<?php bloginfo('name'); ?>" id="logo"/></a></div>
 			<div id="hamburger">
 				<div id="nav-icon3">
 					<span></span>
