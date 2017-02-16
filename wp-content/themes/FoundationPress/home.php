@@ -1,7 +1,7 @@
 
 <?php /* Template Name: Front Page */ ?>
 
-<div class="hide-for-small-only" style="background: url('<?php the_field('parallax_background'); ?>'); height: 100%; background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover;">
+<div style="background: url('<?php the_field('parallax_background'); ?>'); height: 100%; background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover;">
   <?php get_header(); ?>
   <div class="headline" id="headline1">
     <div class="headline-border">
@@ -9,16 +9,6 @@
     </div>
   </div>
 </div>
-
-<!-- <div class="show-for-small-only" style="background: url('<?php the_field('mobile_background'); ?>'); height: 100%;  background-position: center; background-repeat: no-repeat; background-size: cover;">
-  <?php get_header(); ?>
-  <div class="headline" id="headline1">
-    <div class="headline-border">
-      <?php the_field('headline'); ?>
-    </div>
-  </div>
-</div> -->
-
 
 
 <div class="mobile-subhead hide-for-large" style="margin-top: 100px; font-size: 18px; padding: 2%;">
