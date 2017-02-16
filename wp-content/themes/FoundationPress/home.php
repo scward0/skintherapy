@@ -5,8 +5,6 @@
   <div class="row secondary">
     <div class="headline secondary-headline">
       <div class="headline-border">
-
-        BLOG
         <?php the_field('headline'); ?>
       </div>
     </div>
