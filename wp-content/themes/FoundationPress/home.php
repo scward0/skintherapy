@@ -18,7 +18,7 @@
         <div class="columns small-12 medium-6 large-6 text-center">
           <img src="<?php the_field('thumbnail'); ?>" alt="">
           <h1 style="text-transform: lowercase;"><?php the_title(); ?></h1>
-          <button href="<?php the_permalink(); ?>" class="button small">READ MORE</button>
+          <a href="<?php the_permalink(); ?>"><button style="top: 0;" class="button small">READ MORE</button></a>
         </div>
     <?php endwhile; else : ?>
     	<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
