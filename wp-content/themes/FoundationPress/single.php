@@ -5,14 +5,14 @@
   <div class="row secondary">
     <div class="headline secondary-headline">
       <div class="headline-border">
-        <?php the_field('headline'); ?>
+        <?php the_title(); ?>
       </div>
     </div>
   </div>
 
   <div class="row secondary">
     <div class="content">
-      <?php the_field('content'); ?>
+      <?php the_content(); ?>
     </div>
   </div>
 </div>
