@@ -17,9 +17,9 @@
     <div class="columns small-12 medium-12 large-6" style="padding: 50px 0;">
       <div class="menu-centered">
         <ul class="menu">
-          <li><a style="font-size: 18px; color: black; text-transform: uppercase; font-weight: bold;" href="#">Blog</a></li>
-          <li><a style="font-size: 18px; color: black; text-transform: uppercase; font-weight: bold;" href="#">Skin Information</a></li>
-          <li><a style="font-size: 18px; color: black; text-transform: uppercase; font-weight: bold;" href="#">Acne Information</a></li>
+          <li><a class="blog-menu-item" href="#">Blog</a></li>
+          <li><a class="blog-menu-item" href="#">Skin Information</a></li>
+          <li><a class="blog-menu-item" href="#">Acne Information</a></li>
         </ul>
       </div>
     </div>

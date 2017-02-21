@@ -17,9 +17,16 @@ get_header(); ?>
 
 	<?php if ( have_posts() ) : ?>
 
-		<?php while ( have_posts() ) : the_post(); ?>
-			<?php get_template_part( 'template-parts/content', get_post_format() ); ?>
-		<?php endwhile; ?>
+		<div class="row">
+			<?php while ( have_posts() ) : the_post(); ?>
+				<div class="columns small-12 medium-6 large-6 text-center" style="padding: 75px 50px;">
+					<img src="<?php the_field('thumbnail'); ?>" alt="">
+					<p style="font-size: 18px;"><?php the_title(); ?></p>
+					<a href="<?php the_permalink(); ?>"><button style="top: 0;" class="button small">READ MORE</button></a>
+				</div>
+			<?php endwhile; ?>
+		</div>
+
 
 		<?php else : ?>
 			<?php get_template_part( 'template-parts/content', 'none' ); ?>
