@@ -5,7 +5,7 @@
 				1817 south main street, #18<br>
 				Salt Lake City, UT 84115
 			</p>
-			<ul class="menu menu-left">
+			<ul class="menu menu-left align-right">
 				 <li><a href="#"><img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/Instagram.png" alt=""></a></li>
 				 <li><a href="#"><img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/Facebook.png" alt=""></a></li>
  		 </ul>

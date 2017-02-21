@@ -8,9 +8,6 @@
 
 get_header(); ?>
 
-
-<h1>TEST</h1>
-
 <div class="row">
 	<div class="small-12 large-8 columns" role="main">
 
