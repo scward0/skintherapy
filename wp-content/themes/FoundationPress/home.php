@@ -14,6 +14,9 @@
   </div>
 
   <div class="row">
+    <div class="text-center">
+      <?php get_search_form(); ?>
+    </div>
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
         <div class="columns small-12 medium-6 large-6 text-center">
           <img src="<?php the_field('thumbnail'); ?>" alt="">
