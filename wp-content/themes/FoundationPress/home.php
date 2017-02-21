@@ -14,7 +14,7 @@
   </div>
 
   <div class="row">
-    <div class="columns small-12 medium-6 large-6">
+    <div class="columns small-12 medium-12 large-6" style="padding: 50px 0;">
       <div class="menu-centered">
         <ul class="menu">
           <li><a style="font-size: 18px; color: black; text-transform: uppercase; font-weight: bold;" href="#">Blog</a></li>
@@ -23,7 +23,7 @@
         </ul>
       </div>
     </div>
-    <div class="columns small-12 medium-6 large-6">
+    <div class="columns small-12 medium-12 large-6" style="padding: 50px 0;">
       <div class="text-center">
         <?php get_search_form(); ?>
       </div>
