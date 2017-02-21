@@ -19,6 +19,8 @@ get_header(); ?>
 
 <div id="page" role="main">
 	<article class="main-content">
+
+		TEST
 	<?php if ( have_posts() ) : ?>
 
 		<?php /* Start the Loop */ ?>
