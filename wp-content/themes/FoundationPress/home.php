@@ -23,7 +23,7 @@
         </ul>
       </div>
     </div>
-    <div class="columns small-12 medium-12 large-6" style="padding: 50px 0;">
+    <div class="columns small-12 medium-12 large-6" style="padding: 30px;">
       <div class="text-center">
         <?php get_search_form(); ?>
       </div>
