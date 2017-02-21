@@ -9,11 +9,15 @@
 get_header(); ?>
 
 <div class="row">
-	<div class="small-12 large-8 columns" role="main">
+	<div class="small-12 medium-12 large-12 columns" role="main">
 
 		<?php do_action( 'foundationpress_before_content' ); ?>
 
-		<h2><?php _e( 'Search Results for', 'foundationpress' ); ?> "<?php echo get_search_query(); ?>"</h2>
+
+		<div class="text-center" style="margin-top: 150px;">
+			<h1><?php _e( 'Search Results for', 'foundationpress' ); ?> "<?php echo get_search_query(); ?>"</h1>\
+		</div>
+
 
 	<?php if ( have_posts() ) : ?>
 
