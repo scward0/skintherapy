@@ -28,19 +28,20 @@
 
 	<div class="row show-for-small-only">
 		<div class="columns small-12">
-			<p id="left">
-				1817 south main street, #18<br>
-				Salt Lake City, UT 84115
-			</p>
 			<p id="right">
 				801-800-6602<br>
 				utahacneclinic@hotmail.com
+			</p>
+			<p id="left">
+				1817 south main street, #18<br>
+				Salt Lake City, UT 84115
 			</p>
 		</div>
 		<div class="columns small-12 medium-4 large-4 text-center">
 			<img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/logo_footer.png" alt="">
 		</div>
-		<div class="columns small-12">
+		<br>
+		<div class="columns small-12 text-center">
 			<div class="menu-centered">
 				<ul class="menu">
 					<li><a href="#"><img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/Instagram.png" alt=""></a></li>
@@ -49,6 +50,7 @@
 					 <li><a href="#"><img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/Pinterest.png" alt=""></a></li>
 			 	</ul>
 			</div>
+			<br>
 			<p>All Contents &copy; <?php echo date("Y"); ?>. All Rights Reserved. </p>
 		</div>
 	</div>
