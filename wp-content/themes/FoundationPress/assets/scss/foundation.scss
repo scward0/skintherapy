@@ -147,7 +147,7 @@ body {
   }
   #header{
     background: white;
-    height: 100px;
+
   }
 }
 
@@ -694,4 +694,8 @@ body {
   .secondary-headline2{
     width: 80%;
   }
+}
+
+#searchsubmit{
+  display: none !important;
 }

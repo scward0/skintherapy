@@ -15,11 +15,13 @@
 
   <div class="row">
     <div class="columns small-12 medium-6 large-6">
-      <ul class="menu expanded">
-        <li><a style="font-size: 18px; color: black;" href="#">Blog</a></li>
-        <li><a style="font-size: 18px; color: black;" href="#">Skin Information</a></li>
-        <li><a style="font-size: 18px; color: black;" href="#">Acne Information</a></li>
-      </ul>
+      <div class="menu-centered">
+        <ul class="menu">
+          <li><a style="font-size: 18px; color: black;" href="#">Blog</a></li>
+          <li><a style="font-size: 18px; color: black;" href="#">Skin Information</a></li>
+          <li><a style="font-size: 18px; color: black;" href="#">Acne Information</a></li>
+        </ul>
+      </div>
     </div>
     <div class="columns small-12 medium-6 large-6">
       <div class="text-center">
