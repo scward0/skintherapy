@@ -17,7 +17,7 @@
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
         <div class="columns small-12 medium-6 large-6 text-center">
           <img src="<?php the_field('thumbnail'); ?>" alt="">
-          <h1 style="text-transform: lowercase;"><?php the_title(); ?></h1>
+          <p><?php the_title(); ?></p>
           <a href="<?php the_permalink(); ?>"><button style="top: 0;" class="button small">READ MORE</button></a>
         </div>
     <?php endwhile; else : ?>
