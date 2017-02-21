@@ -7703,8 +7703,7 @@ body {
   #logo {
     width: 200px; }
   #header {
-    background: white;
-    height: 100px; } }
+    background: white; } }
 
 .header-white {
   background: white !important; }
@@ -8112,5 +8111,8 @@ body {
 @media screen and (max-width: 450px) {
   .secondary-headline2 {
     width: 80%; } }
+
+#searchsubmit {
+  display: none !important; }
 
 /*# sourceMappingURL=foundation.css.map */
