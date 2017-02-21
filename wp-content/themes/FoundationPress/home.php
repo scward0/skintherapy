@@ -32,7 +32,7 @@
 
   <div class="row">
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-        <div class="columns small-12 medium-6 large-6 text-center" style="padding: 100px 50px;">
+        <div class="columns small-12 medium-6 large-6 text-center" style="padding: 75px 50px;">
           <img src="<?php the_field('thumbnail'); ?>" alt="">
           <p style="font-size: 18px;"><?php the_title(); ?></p>
           <a href="<?php the_permalink(); ?>"><button style="top: 0;" class="button small">READ MORE</button></a>
