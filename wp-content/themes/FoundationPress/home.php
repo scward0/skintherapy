@@ -30,7 +30,7 @@
     </div>
   </div>
 
-  <div class="row">
+  <div class="row" style="padding: 150px 50px;">
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
         <div class="columns small-12 medium-6 large-6 text-center">
           <img src="<?php the_field('thumbnail'); ?>" alt="">
