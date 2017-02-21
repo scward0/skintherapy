@@ -27,20 +27,21 @@
 	</div>
 
 	<div class="row show-for-small-only">
-		<div class="columns small-12">
-			<p id="right">
+		<div class="columns small-6">
+			<p style="text-align: right;">
 				801-800-6602<br>
 				utahacneclinic@hotmail.com
 			</p>
-			<p id="left">
+		</div>
+		<div class="columns small-6">
+			<p style="text-align: left;">
 				1817 south main street, #18<br>
 				Salt Lake City, UT 84115
 			</p>
 		</div>
-		<div class="columns small-12 medium-4 large-4 text-center">
+		<div class="columns small-12 medium-4 large-4 text-center" style="padding: 30px;">
 			<img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/logo_footer.png" alt="">
 		</div>
-		<br>
 		<div class="columns small-12 text-center">
 			<div class="menu-centered">
 				<ul class="menu">
