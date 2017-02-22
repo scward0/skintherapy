@@ -15,7 +15,7 @@ get_header(); ?>
 
 
 		<div class="text-center" style="margin-top: 150px;">
-			<h1><?php _e( 'Search Results for', 'foundationpress' ); ?> "<?php echo get_search_query(); ?>"</h1>\
+			<h1><?php _e( 'Search Results for', 'foundationpress' ); ?> "<?php echo get_search_query(); ?>"</h1>
 		</div>
 
 
