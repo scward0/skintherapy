@@ -330,16 +330,16 @@ body {
   #menu{
     width: 100%;
     height: 100%;
-    top: 420px;
-    left: 188px;
+    top: 415px;
+    left: 50%;
     background: rgb(250, 250, 250);
   }
 }
 
 .current-menu-item {
-  color: black;
+  color: #EC008C;
   background: none;
-  border-bottom: solid 5px #EC008C;
+  // border-bottom: solid 5px #EC008C;
 }
 
 .headline{

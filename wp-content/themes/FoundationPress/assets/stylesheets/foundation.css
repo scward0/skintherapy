@@ -7846,14 +7846,13 @@ body {
   #menu {
     width: 100%;
     height: 100%;
-    top: 420px;
-    left: 188px;
+    top: 415px;
+    left: 50%;
     background: #fafafa; } }
 
 .current-menu-item {
-  color: black;
-  background: none;
-  border-bottom: solid 5px #EC008C; }
+  color: #EC008C;
+  background: none; }
 
 .headline {
   background: rgba(250, 250, 250, 0.6);
