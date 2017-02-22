@@ -7669,11 +7669,11 @@ body, html {
 .no-max {
   max-width: 100%; }
 
-h1, h2, h3 {
+h1, h2 {
   font-family: 'Playfair Display', serif;
   font-weight: bold; }
 
-p {
+h3, p {
   font-family: 'Raleway', sans-serif;
   font-weight: bold; }
 
@@ -7917,7 +7917,7 @@ body {
   position: relative;
   top: 100%;
   left: 50%;
-  background: white;
+  background: rgba(250, 250, 250, 0.6);
   padding: 50px; }
 
 .headline3, .headline4, .headline5 {
@@ -7948,7 +7948,7 @@ body {
           background-size: cover; }
 
 #road-map-steps {
-  margin-top: 200px; }
+  margin-top: 100px; }
 
 #road-map-steps h4 {
   font-weight: bold; }
@@ -7957,10 +7957,11 @@ body {
   font-size: 16px; }
 
 .step {
-  padding: 10px; }
+  padding: 30px; }
 
 @media screen and (max-width: 640) {
-  padding: 10px; }
+  .step {
+    padding: 10px; } }
 
 #book {
   margin-top: 200px;

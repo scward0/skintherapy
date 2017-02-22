@@ -26,18 +26,18 @@
 <section class="no-max container" id="road-map-steps">
   <div class="row">
     <div class="columns small-12 medium-12">
-      <p>Working as a team we can clear you skin in three to six months.</p>
+      <p class="text-center">Working as a team we can clear you skin in three to six months.</p>
     </div>
     <div class="columns small-12 medium-4 large-4 step">
       <div class="left">
         <h4>1. talk</h4>
         <p>We provide you with the tools and knowledge to identify what is irritating for your skin.</p>
-        <img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/talk.png" style="max-width: 400px;" alt="">
+        <img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/talk.png" style="max-width: 300px;" alt="">
       </div>
     </div>
     <div class="columns small-12 medium-4 large-4 hide-for-small-only step">
       <div class="up">
-        <img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/treat.png" style="max-width: 400px;" alt="">
+        <img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/treat.png" style="max-width: 300px;" alt="">
         <h4>2. treat</h4>
         <p>We creat a long-term skin care program just for you, based on your skin and acne type.</p>
       </div>
@@ -45,7 +45,7 @@
     <div class="columns small-12 show-for-small-only step">
       <h4>2. treat</h4>
       <p>We creat a long-term skin care program just for you, based on your skin and acne type.</p>
-      <img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/treat.png" style="max-width: 400px;" alt="">
+      <img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/treat.png" style="max-width: 300px;" alt="">
     </div>
     <div class="columns small-12 medium-4 large-4 step">
       <div class="right">
