@@ -8114,7 +8114,9 @@ body {
   .secondary-headline2 {
     width: 70%; }
   .secondary-headline {
-    margin-top: 100px; } }
+    margin-top: 100px; }
+  .secondary-headline h1 {
+    font-size: 48px; } }
 
 @media screen and (max-width: 450px) {
   .secondary-headline2 {
