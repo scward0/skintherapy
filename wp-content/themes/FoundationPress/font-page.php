@@ -25,6 +25,7 @@
 
 <section class="no-max container" id="road-map-steps">
   <div class="row">
+    <br><br>
     <div class="columns small-12 medium-12">
       <p class="text-center">Working as a team we can clear you skin in three to six months.</p>
     </div>
