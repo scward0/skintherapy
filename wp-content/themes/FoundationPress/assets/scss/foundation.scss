@@ -336,10 +336,9 @@ body {
   }
 }
 
-.current-menu-item {
-  color: #EC008C;
+.current-menu-item a {
+  color: #EC008C !important;
   background: none;
-  // border-bottom: solid 5px #EC008C;
 }
 
 .headline{

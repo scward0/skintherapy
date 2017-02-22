@@ -7850,8 +7850,8 @@ body {
     left: 50%;
     background: #fafafa; } }
 
-.current-menu-item {
-  color: #EC008C;
+.current-menu-item a {
+  color: #EC008C !important;
   background: none; }
 
 .headline {
