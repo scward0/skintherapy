@@ -7856,7 +7856,7 @@ body {
 
 .headline {
   background: rgba(250, 250, 250, 0.6);
-  width: 40%;
+  width: 30%;
   position: absolute;
   top: 70%;
   left: 30%;
@@ -7924,7 +7924,7 @@ body {
   position: relative;
   top: 50%;
   left: 50%;
-  background: white;
+  background: rgba(250, 250, 250, 0.6);
   padding: 50px;
   height: 35%; }
 
