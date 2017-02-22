@@ -7855,7 +7855,7 @@ body {
   background: none; }
 
 .headline {
-  background: rgba(250, 250, 250, 0.6);
+  background: #fafafa !important;
   width: 30%;
   position: absolute;
   top: 70%;
