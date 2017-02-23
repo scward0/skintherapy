@@ -49,15 +49,16 @@
           </nav>
         <?php endif; ?> -->
 
-    </div>
-    </div>
-
-    <div class="row text-center">
-      <div class="responsive-embed">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/3lVHVrPI7AE" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
   </div>
+
+  <div class="row text-center">
+    <div class="responsive-embed">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/3lVHVrPI7AE" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+
 </div>
 
 <?php get_footer(); ?>
