@@ -37,7 +37,11 @@
         </div>
       <?php endwhile; endif; wp_reset_postdata(); ?>
 
-
+      <div class="row text-center">
+        <div class="flex-video">
+          <iframe width="420" height="315" src="https://youtu.be/3lVHVrPI7AE" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
 
       <?php
         if ( function_exists( 'foundationpress_pagination' ) ) :
