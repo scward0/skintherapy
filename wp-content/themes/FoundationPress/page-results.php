@@ -5,7 +5,7 @@
   <div class="row secondary">
     <div class="headline secondary-headline">
       <div class="headline-border">
-        <?php the_field('headline'); ?>
+        <div class="text-center"><h1>Results</h1></div>
       </div>
     </div>
   </div>
