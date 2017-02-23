@@ -37,13 +37,9 @@
         </div>
       <?php endwhile; endif; wp_reset_postdata(); ?>
 
-      <div class="row text-center">
-        <div class="flex-video">
-          <iframe width="420" height="315" src="https://youtu.be/3lVHVrPI7AE" frameborder="0" allowfullscreen></iframe>
-        </div>
-      </div>
 
-      <?php
+
+      <!-- <?php
         if ( function_exists( 'foundationpress_pagination' ) ) :
           foundationpress_pagination();
         elseif ( is_paged() ) :
@@ -52,8 +48,14 @@
             <div class="post-previous"><?php next_posts_link( __( '&larr; Older posts', 'foundationpress' ) ); ?></div>
             <div class="post-next"><?php previous_posts_link( __( 'Newer posts &rarr;', 'foundationpress' ) ); ?></div>
           </nav>
-        <?php endif; ?>
+        <?php endif; ?> -->
 
+    </div>
+
+    <div class="row text-center">
+      <div class="responsive-embed">
+        <iframe width="420" height="315" src="https://youtu.be/3lVHVrPI7AE" frameborder="0" allowfullscreen></iframe>
+      </div>
     </div>
 
     </div>
