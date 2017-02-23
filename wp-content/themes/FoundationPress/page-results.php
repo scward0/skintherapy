@@ -12,7 +12,6 @@
 
   <div class="row secondary">
     <div class="content">
-
       <div class="columns small-12 medium-12 large-8" id="cases">
       <?php
         $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
@@ -51,13 +50,12 @@
         <?php endif; ?> -->
 
     </div>
+    </div>
 
     <div class="row text-center">
       <div class="responsive-embed">
-        <iframe width="420" height="315" src="https://youtu.be/3lVHVrPI7AE" frameborder="0" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3lVHVrPI7AE" frameborder="0" allowfullscreen></iframe>
       </div>
-    </div>
-
     </div>
   </div>
 </div>
