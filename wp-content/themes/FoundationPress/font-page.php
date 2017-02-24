@@ -36,7 +36,7 @@
       <div class="left">
         <h4>1. talk</h4>
         <p>We provide you with the knowledge to identify what is irritating for your skin as well as contributing hereditary factors, to help set you on a path to success.</p>
-        <img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/talk.png" style="max-width: 300px;" alt="">
+        <img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/talk2.png" style="max-width: 300px;" alt="">
       </div>
     </div>
     <div class="columns small-12 medium-12 large-4 hide-for-small-only step">
