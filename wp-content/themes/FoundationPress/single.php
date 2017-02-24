@@ -3,11 +3,11 @@
   <img class="hero" src="<?php the_field('hero'); ?>" width="100%" alt="">
 
   <div class="row secondary">
-    <div class="headline secondary-headline">
+    <div class="post-headline">
       <?php the_title(); ?>
     </div>
     <br><br>
-    <p><span class="title-hr">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
+    <p class="text-center"><span class="title-hr">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
   </div>
 
   <div class="row secondary">
