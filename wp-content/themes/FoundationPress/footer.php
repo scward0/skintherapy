@@ -93,42 +93,45 @@
 				$('#header').removeClass('header-white');
 			}
 
-			if($(window).width() > 768){
 
-				var hT = $('#road-map-steps').offset().top,
-	         hH = $('#road-map-steps').outerHeight(),
-	         wH = $(window).height(),
-	         wS = $(this).scrollTop(),
-	         windowWidth = $(window).width();
+		if($(window).width() > 1024){
+
+			var hT = $('#road-map-steps').offset().top,
+				 hH = $('#road-map-steps').outerHeight(),
+				 wH = $(window).height(),
+				 wS = $(this).scrollTop(),
+				 windowWidth = $(window).width();
+
+			$('.left').addClass('invisible');
+			$('.up').addClass('invisible');
+			$('.right').addClass('invisible');
+
+			if (Math.round(wS) < (Math.round(hT+hH-wH-250))){
+				$('.left').removeClass('animated fadeInLeft');
+				$('.up').removeClass('animated fadeInUp');
+				$('.right').removeClass('animated fadeInRight');
+				$('.in').removeClass('animated fadeIn');
 
 				$('.left').addClass('invisible');
 				$('.up').addClass('invisible');
 				$('.right').addClass('invisible');
+				$('.in').addClass('invisible');
+			}
 
-				if (Math.round(wS) < (Math.round(hT+hH-wH-250))){
-					$('.left').removeClass('animated fadeInLeft');
-					$('.up').removeClass('animated fadeInUp');
-					$('.right').removeClass('animated fadeInRight');
-					$('.in').removeClass('animated fadeIn');
+			if (Math.round(wS) > (hT+hH-wH-250)){
+				$('.left').removeClass('invisible');
+				$('.up').removeClass('invisible');
+				$('.right').removeClass('invisible');
+				$('.in').removeClass('invisible');
 
-					$('.left').addClass('invisible');
-					$('.up').addClass('invisible');
-					$('.right').addClass('invisible');
-					$('.in').addClass('invisible');
-				}
+				$('.left').addClass('animated  fadeInLeft');
+				$('.up').addClass('animated  fadeInUp');
+				$('.right').addClass('animated fadeInRight');
+				$('.in').addClass('animated fadeIn');
+			}
+		}
 
-				if (Math.round(wS) > (hT+hH-wH-250)){
-					$('.left').removeClass('invisible');
-					$('.up').removeClass('invisible');
-					$('.right').removeClass('invisible');
-					$('.in').removeClass('invisible');
-
-					$('.left').addClass('animated  fadeInLeft');
-					$('.up').addClass('animated  fadeInUp');
-					$('.right').addClass('animated fadeInRight');
-					$('.in').addClass('animated fadeIn');
-				}
-
+			if($(window).width() > 768){
 
 				// headline2
 
