@@ -52,9 +52,6 @@
 
       </div>
       <div class="columns small-12 medium-12 large-4 testimonials">
-        <p class="text-center">
-          <a target="_blank" href="https://www.google.com/webhp?sourceid=chrome-instant&rlz=1C5CHFA_enUS704US704&ion=1&espv=2&ie=UTF-8#q=SkinTherapy+Skincare+%26+Acne+Clinic&lrd=0x8752871bbdea0af3:0x6b9ae9ca2cdf8b54,1,"><button class="button small">Read all Reviews</button></a>
-        </p>
         <br><br>
         <?php
           $args = array(
@@ -67,6 +64,10 @@
             <?php the_content(); ?>
         <?php endwhile; endif; wp_reset_postdata(); ?>
       </div>
+
+      <p class="text-center">
+        <a target="_blank" href="https://www.google.com/webhp?sourceid=chrome-instant&rlz=1C5CHFA_enUS704US704&ion=1&espv=2&ie=UTF-8#q=SkinTherapy+Skincare+%26+Acne+Clinic&lrd=0x8752871bbdea0af3:0x6b9ae9ca2cdf8b54,1,"><button class="button small">Read all Reviews</button></a>
+      </p>
     </div>
   </div>
 
