@@ -50,6 +50,11 @@
         <?php endif; ?> -->
 
       </div>
+      <div class="columns small-12 medium-12 large-4">
+        <p class="text-center">
+          <a target="_blank" href="https://www.google.com/webhp?sourceid=chrome-instant&rlz=1C5CHFA_enUS704US704&ion=1&espv=2&ie=UTF-8#q=SkinTherapy+Skincare+%26+Acne+Clinic&lrd=0x8752871bbdea0af3:0x6b9ae9ca2cdf8b54,1,"><button name="button">Read Google Reviews</button></a>
+        </p>
+      </div>
     </div>
   </div>
 
