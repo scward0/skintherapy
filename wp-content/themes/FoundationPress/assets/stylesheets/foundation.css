@@ -8137,4 +8137,7 @@ body {
   text-transform: uppercase;
   font-weight: bold; }
 
+.testimonials p {
+  font-size: 16px; }
+
 /*# sourceMappingURL=foundation.css.map */
