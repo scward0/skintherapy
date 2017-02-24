@@ -4,10 +4,10 @@
 
   <div class="row secondary">
     <div class="headline secondary-headline">
-      <div class="headline-border">
-        <?php the_title(); ?>
-      </div>
+      <?php the_title(); ?>
     </div>
+    <br><br>
+    <p><span class="title-hr">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
   </div>
 
   <div class="row secondary">
