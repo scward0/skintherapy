@@ -3,7 +3,7 @@
   <img class="hero" src="<?php the_field('hero'); ?>" width="100%" alt="">
 
   <div class="row secondary">
-    <div class="post-headline">
+    <div class="post-headline text-center">
       <?php the_title(); ?>
     </div>
     <br><br>
