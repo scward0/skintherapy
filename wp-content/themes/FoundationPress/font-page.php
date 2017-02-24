@@ -40,14 +40,14 @@
         <img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/talk.png" style="max-width: 300px;" alt="">
       </div>
     </div>
-    <div class="columns small-12 medium-12 large-4 hide-for-small-only hide-for-medium-only step">
+    <div class="columns small-12 medium-12 large-4 hide-for-small-only step">
       <div class="up">
         <img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/treat.png" style="max-width: 300px;" alt="">
         <h4>2. treat</h4>
         <p>We create a long-term skin care program just for you, based on your skin and acne type.</p>
       </div>
     </div>
-    <div class="columns small-12 show-for-small show-for-medium step">
+    <div class="columns small-12 show-for-small-only step">
       <h4>2. treat</h4>
       <p>We creat a long-term skin care program just for you, based on your skin and acne type.</p>
       <img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/treat.png" style="max-width: 300px;" alt="">
