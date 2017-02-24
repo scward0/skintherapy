@@ -7917,19 +7917,16 @@ body {
   position: relative;
   top: 100%;
   left: 50%;
-  background: rgba(250, 250, 250, 0.6);
+  background: #fafafa;
   padding: 50px; }
 
 .headline3, .headline4, .headline5 {
   position: relative;
   top: 50%;
   left: 50%;
-  background: rgba(250, 250, 250, 0.6);
+  background: #fafafa;
   padding: 50px;
-  height: 35%; }
-
-.headline3 {
-  width: 50%; }
+  height: 300px; }
 
 .button {
   background-color: black !important;
