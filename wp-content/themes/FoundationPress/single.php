@@ -12,7 +12,7 @@
 
   <div class="row secondary">
     <div class="content">
-      <?php the_content(); ?>
+      <?php the_field('content'); ?>
     </div>
   </div>
 </div>
