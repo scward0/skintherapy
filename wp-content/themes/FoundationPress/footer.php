@@ -194,10 +194,7 @@
 					$('.headline4').addClass('animated fadeIn');
 				}
 
-
-
 				// headline5
-
 
 				var hT5 = $('.headline5').offset().top,
 					 hH5 = $('.headline5').outerHeight(),
