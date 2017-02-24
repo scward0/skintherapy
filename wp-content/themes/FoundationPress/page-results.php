@@ -24,7 +24,7 @@
         ?>
 
       <?php if( $wp_query->have_posts() ) : while($wp_query->have_posts() ) : $wp_query->the_post(); ?>
-        <div class="row">
+        <div class="row" style="margin: 50px 0;">
           <div class="columns small-6 medium-6 large-6 text-center">
             <p>Before</p>
             <img src="<?php the_field('before'); ?>" alt="">
@@ -34,7 +34,6 @@
             <img src="<?php the_field('after'); ?>" alt="">
           </div>
         </div>
-        <br><br>
       <?php endwhile; endif; wp_reset_postdata(); ?>
 
 
