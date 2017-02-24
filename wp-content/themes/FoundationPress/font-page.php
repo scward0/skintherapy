@@ -88,6 +88,7 @@
         $lastposts = get_posts( $args );
         foreach($lastposts as $post) : setup_postdata($post); ?>
         	<h1><a style="text-transform: lowercase; color: black;" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
+          <br><br><br><br>
           <a href="<?php the_permalink(); ?>"><button class="button small">READ MORE</button></a>
         <?php endforeach; ?>
     </div>
