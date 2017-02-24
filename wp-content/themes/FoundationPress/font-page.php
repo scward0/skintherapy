@@ -47,7 +47,7 @@
         <p>We create a long-term skin care program just for you, based on your skin and acne type.</p>
       </div>
     </div>
-    <div class="columns small-12 show-for-small-only show-for-medium-only step">
+    <div class="columns small-12 show-for-small show-for-medium step">
       <h4>2. treat</h4>
       <p>We creat a long-term skin care program just for you, based on your skin and acne type.</p>
       <img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/treat.png" style="max-width: 300px;" alt="">
