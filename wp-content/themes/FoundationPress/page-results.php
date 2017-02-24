@@ -24,7 +24,7 @@
         ?>
 
       <?php if( $wp_query->have_posts() ) : while($wp_query->have_posts() ) : $wp_query->the_post(); ?>
-        <div class="row" style="margin: 50px 0;">
+        <div class="row" style="margin-bottom: 150px;">
           <div class="columns small-6 medium-6 large-6 text-center">
             <p>Before</p>
             <img src="<?php the_field('before'); ?>" alt="">
