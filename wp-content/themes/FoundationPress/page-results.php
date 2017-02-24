@@ -24,8 +24,8 @@
         ?>
 
       <?php if( $wp_query->have_posts() ) : while($wp_query->have_posts() ) : $wp_query->the_post(); ?>
-        <div class="row" style="margin-bottom: 50px;">
-          <div class="columns small-6 medium-6 large-6 text-center">
+        <div class="row" style="margin-bottom: 75px;">
+          <div class="columns small-6 medium-6 large-6 text-center" style="margin-bottom: 50px;">
             <p>Before</p>
             <img src="<?php the_field('before'); ?>" alt="">
           </div>
@@ -33,7 +33,7 @@
             <p>After</p>
             <img src="<?php the_field('after'); ?>" alt="">
           </div>
-          <p class="text-center" style="padding: 50px 0;"><span class="title-hr">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
+          <p class="text-center"><span class="title-hr">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
         </div>
       <?php endwhile; endif; wp_reset_postdata(); ?>
 
