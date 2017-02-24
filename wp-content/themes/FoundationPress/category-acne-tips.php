@@ -33,8 +33,8 @@
   <div class="row">
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
         <div class="columns small-12 medium-6 large-6 text-center" style="padding: 75px 50px;">
-          <img src="<?php the_field('thumbnail'); ?>" alt="">
-          <br><span class="category-label">-<?php the_category( ', ' ); ?> -</span><br>
+          <img src="<?php the_field('thumbnail'); ?>" alt="" style="margin-bottom: 10px;">
+          <br><span class="category-label">-<?php the_category( ', ' ); ?>-</span><br>
 
           <p style="font-size: 18px;"><?php the_title(); ?></p>
           <a href="<?php the_permalink(); ?>"><button style="top: 0;" class="button small">READ MORE</button></a>
