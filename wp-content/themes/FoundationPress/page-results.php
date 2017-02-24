@@ -34,6 +34,7 @@
             <img src="<?php the_field('after'); ?>" alt="">
           </div>
         </div>
+        <br><br>
       <?php endwhile; endif; wp_reset_postdata(); ?>
 
 
