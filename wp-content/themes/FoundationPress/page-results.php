@@ -10,7 +10,7 @@
     </div>
   </div>
 
-  <div class="row secondary">
+  <div class="row">
     <div class="content">
       <div class="columns small-12 medium-12 large-8" id="cases">
       <?php
@@ -64,11 +64,7 @@
           ?>
 
         <?php if( $wp_query->have_posts() ) : while($wp_query->have_posts() ) : $wp_query->the_post(); ?>
-
-          <p style="padding: 0;">
             <?php the_content(); ?>
-          </p>
-
         <?php endwhile; endif; wp_reset_postdata(); ?>
       </div>
     </div>
