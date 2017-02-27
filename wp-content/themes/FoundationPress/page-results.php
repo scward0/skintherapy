@@ -72,7 +72,7 @@
   </div>
 
   <div class="row" style="padding-top: 100px;">
-    <div class="columns small-12 medium-12 large-12 text-center">
+    <div class="columns small-12 medium-12 large-8 text-center">
       <div class="responsive-embed">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/3lVHVrPI7AE" frameborder="0" allowfullscreen></iframe>
       </div>
