@@ -379,7 +379,7 @@ body {
 }
 .headline p{
   color: black;
-  font-size: 18px;
+  font-size: 22px;
   padding: 0 30px;
   margin: 0;
 }
@@ -428,14 +428,14 @@ body {
   top: 100%;
   left: 50%;
   background: rgb(250, 250, 250);
-  padding: 50px;
+  padding: 30px;
 }
  .headline3, .headline4, .headline5{
   position: relative;
   top: 50%;
   left: 50%;
   background: rgb(250, 250, 250);
-  padding: 50px;
+  padding: 30px;
   height: 300px;
 }
 
@@ -505,8 +505,6 @@ body {
 
 
 
-
-
  #omega h3, #cream h3{
    color: black;
    font-size:48px;
@@ -551,36 +549,7 @@ body {
   margin-bottom: 50px;
 }
 
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: #394D5C !important;
-	font-family: Arial !important;
 
-  font-weight: bold;
-}
-::-moz-placeholder { /* Firefox 19+ */
-  color: #394D5C !important;
-	font-family: Arial !important;
-
-  font-weight: bold;
-}
-:-ms-input-placeholder { /* IE 10+ */
-  color: #394D5C !important;
-	font-family: Arial !important;
-
-  font-weight: bold;
-}
-:-moz-placeholder { /* Firefox 18- */
-  color: #394D5C !important;
-	font-family: Arial !important;
-
-  font-weight: bold;
-}
-
-
-
-.hero.about-hero{
-  margin-top: 140px;
-}
 
 
 
