@@ -17,9 +17,8 @@
     <div class="columns small-12 medium-12 large-6" style="padding: 50px 0;">
       <div class="menu-centered">
         <ul class="menu">
-          <li><a style="color: #EC008C;" class="blog-menu-item" href="http://198.58.102.147/skintherapy/category/acne-tips/">Acne Tips</a></li>
           <li><a class="blog-menu-item" href="http://198.58.102.147/skintherapy/category/must-reads/">Must Reads</a></li>
-          <li><a class="blog-menu-item" href="http://198.58.102.147/skintherapy/category/messages-from-jill/">Messages From Jill</a></li>
+          <li><a style="color: #EC008C;" class="blog-menu-item" href="http://198.58.102.147/skintherapy/category/acne-tips/">Acne Tips</a></li>
         </ul>
       </div>
     </div>

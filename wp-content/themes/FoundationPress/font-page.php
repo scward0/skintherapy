@@ -54,7 +54,7 @@
     <div class="columns small-12 medium-12 large-4 step">
       <div class="right">
         <h4>3. clear</h4>
-        <p>We follow-up and fine tune your skin care plan to achieve lasting results.</p>
+        <p>We follow-up and fine tune your skin care plan to achieve lasting results.</p><br /><br />
         <img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/clear.png" style="max-width: 300px;" alt="">
       </div>
     </div>
