@@ -14,7 +14,7 @@
   </div>
 
   <div class="row secondary">
-    <div class="content">
+    <div class="content" style="padding 0 50px;">
       <?php the_content(); ?>
     </div>
   </div>
