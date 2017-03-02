@@ -36,7 +36,7 @@
       <div class="left">
         <h4>1. talk</h4>
         <p>We provide you with the knowledge to identify what is irritating for your skin as well as contributing hereditary factors, to help set you on a path to success.</p>
-        <div class="text-center"><img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/talk2.png" style="max-width: 300px;" alt=""></div>
+        <div class="text-center"><img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/03/talk3.jpg" style="max-width: 300px;" alt=""></div>
       </div>
     </div>
     <div class="columns small-12 medium-12 large-4 hide-for-small-only step">
@@ -88,7 +88,7 @@
         $lastposts = get_posts( $args );
         foreach($lastposts as $post) : setup_postdata($post); ?>
         	<h1><a style="text-transform: lowercase; color: black;" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
-          <br><br><br><br><br><br>
+
           <a href="<?php the_permalink(); ?>"><button class="button small">READ MORE</button></a>
         <?php endforeach; ?>
     </div>
