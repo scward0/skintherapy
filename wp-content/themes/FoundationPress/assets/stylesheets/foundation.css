@@ -7929,12 +7929,19 @@ body {
   top: 50%;
   left: 50%;
   background: #fafafa;
-  padding: 30px;
-  height: 300px; }
+  padding: 30px; }
+
+.headline4 {
+  height: 210px; }
+
+.headline5 {
+  height: 235px; }
 
 @media screen and (max-width: 768px) {
   .headline2, .headline3, .headline4, .headline5 {
-    padding: 20px; } }
+    padding: 20px; }
+  .headline5 {
+    height: 250px; } }
 
 .button {
   background-color: black !important;
