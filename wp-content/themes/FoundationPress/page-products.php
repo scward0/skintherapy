@@ -18,6 +18,18 @@
       <?php the_field('content'); ?>
     </div>
   </div>
+
+  <div class="row secondary">
+    <div class="products">
+      <div class="columns small-12 medium-6 large-6">
+        <img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/03/cleanse.jpg" alt="">
+      </div>
+      <div class="columns small-12 medium-6 large-6">
+        <h3>Cleanse</h3>
+        <button class="button small" name="button">SHOP CLEANSE</button>
+      </div>
+    </div>
+  </div>
 </div>
 
 <?php get_footer(); ?>
