@@ -1,6 +1,3 @@
-
-<?php /* Template Name: Secondary Page */ ?>
-
 <div class="container">
   <?php get_header(); ?>
   <img class="hero" src="<?php the_field('hero'); ?>" width="100%" alt="">
