@@ -18,14 +18,7 @@
 
   <div class="row secondary">
     <div class="products">
-      <!-- <div class="columns small-12 medium-6 large-6 text-center">
-        <img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/03/cleanse.jpg" alt="cleanse">
-      </div>
-      <div class="columns small-12 medium-6 large-6 text-center">
-        <h3>Cleanse</h3>
-        <p style="text-align: left;">We offer four unique cleansers in our Clear Command Skincare line.  Whether you have facial or body acne we have a safe effective cleanser for every skin and acne type.  Our cleansing formulations help remove dirt, oil and pollutants on acne prone skin.</p>
-        <a href="#"><button class="button small text-center" name="button">SHOP CLEANSE</button></a>
-      </div> -->
+
       <?php the_field('products'); ?>
     </div>
   </div>
