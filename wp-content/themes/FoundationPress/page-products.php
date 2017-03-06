@@ -16,9 +16,8 @@
     </div>
   </div>
 
-  <div class="row secondary">
+  <div class="secondary">
     <div class="products">
-
       <?php the_field('products'); ?>
     </div>
   </div>

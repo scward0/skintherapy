@@ -8135,4 +8135,13 @@ body {
 .subhead {
   font-size: 20px; }
 
+.products p {
+  font-size: 16px;
+  padding: 0;
+  text-align: left !important; }
+
+@media screen and (max-width: 639px) {
+  .products p {
+    padding: 0 15px !important; } }
+
 /*# sourceMappingURL=foundation.css.map */

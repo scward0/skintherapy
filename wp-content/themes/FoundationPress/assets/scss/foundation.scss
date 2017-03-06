@@ -726,3 +726,20 @@ body {
 .subhead{
   font-size: 20px;
 }
+
+
+.products p{
+  font-size: 16px;
+  padding: 0;
+  text-align: left !important;
+}
+
+.products h2{
+
+}
+
+@media screen and (max-width: 639px){
+  .products p{
+    padding: 0 15px !important;
+  }
+}
