@@ -30,12 +30,12 @@
   <div class="row">
     <br><br>
     <div class="columns small-12 medium-12">
-      <p class="text-center">Working as a team we can clear you skin in three to six months.</p>
+      <p class="text-center">We can clear your skin in three to six months.</p>
     </div>
     <div class="columns small-12 medium-12 large-4 step">
       <div class="left">
         <h4>1. talk</h4>
-        <p>We provide you with the knowledge to identify what is irritating for your skin as well as contributing hereditary factors, to help set you on a path to success.</p>
+        <p>We will investigate what factors could be making your acne worse and set you on the right path to success.</p>
         <div class="text-center"><img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/03/talk3.jpg" style="max-width: 300px;" alt=""></div>
       </div>
     </div>
@@ -60,7 +60,7 @@
     </div>
   </div>
   <div class="row text-center in">
-    <button class="button small">LEARN MORE</button>
+    <button class="button small" style="top:0;">LEARN MORE</button>
   </div>
 </section>
 
