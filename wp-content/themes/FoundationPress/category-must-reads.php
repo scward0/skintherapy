@@ -1,6 +1,6 @@
 <div class="container">
   <?php get_header(); ?>
-  <img class="hero" src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/blog.png" width="100%" alt="">
+  <img class="hero" src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/BlogNew.jpg" width="100%" alt="">
 
   <div class="row secondary">
     <div class="headline secondary-headline">
