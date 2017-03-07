@@ -1,13 +1,19 @@
 
 <?php /* Template Name: Front Page */ ?>
 
-<div style="background: url('<?php the_field('parallax_background'); ?>'); height: 100%; background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover;">
+<div class="hide-for-small-only" style="background: url('<?php the_field('parallax_background'); ?>'); height: 100%; background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover;">
   <?php get_header(); ?>
   <div class="headline" id="headline1">
     <div class="headline-border">
       <?php the_field('headline'); ?>
     </div>
   </div>
+</div>
+
+<div class="show-for-small-only mobile-section">
+  <?php get_header(); ?>
+  <img src="<?php the_field('parallax_background'); ?>" style="width: 100px;" alt="">
+  <?php the_field('headline'); ?>
 </div>
 
 <div class="mobile-subhead" style="margin-top: 100px; font-size: 18px;">
@@ -18,12 +24,17 @@
   </p>
 </div>
 
-<section class="no-max" id="road-map" style="background: url('<?php the_field('background_2') ?>'); margin-top: 100px; height: 80%; background-size: cover;">
+<section class="container hide-for-small-only" id="road-map" style="background: url('<?php the_field('background_2') ?>'); margin-top: 100px; height: 80%; background-size: cover;">
   <div class="headline headline2">
     <div class="headline-border">
       <?php the_field('headline_2') ?>
     </div>
   </div>
+</section>
+
+<section class="show-for-small-only mobile-section">
+  <img src="<?php the_field('background_2') ?>" alt="" />
+  <?php the_field('headline_2') ?>
 </section>
 
 <section class="no-max container" id="road-map-steps">
