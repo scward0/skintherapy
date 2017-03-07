@@ -74,7 +74,7 @@
 </section>
 
 <section class="no- max container" id="omega" style="background: url('<?php the_field('background_4') ?>'); margin-top: 100px; height: 80%; background-size: cover;">
-  <div class="headline headline4 hidden-for-small-only">
+  <div class="headline headline4 hide-for-small-only">
     <div class="headline-border">
       <?php the_field('headline_4') ?>
     </div>
@@ -86,7 +86,7 @@
 </section>
 
 <section class="no- max container" id="cream" style="background: url('<?php the_field('background_5') ?>');  margin-top: 100px; height: 80%; background-size: cover;">
-  <div class="headline headline5 hidden-for-small-only">
+  <div class="headline headline5 hide-for-small-only">
     <div class="headline-border text-center">
       <?php
         $args = array( 'numberposts' => 1 );
@@ -100,13 +100,13 @@
   </div>
 </section>
 
-<section class="show-for-small-only" style="margin-top: 100px;">
+<section class="show-for-small-only text-center" style="margin-top: 100px;">
   <?php
     $args = array( 'numberposts' => 1 );
     $lastposts = get_posts( $args );
     foreach($lastposts as $post) : setup_postdata($post); ?>
-      <h1>read the latest</h1>
-      <p><a style="text-transform: lowercase; color: black;" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></p>
+      <h1 style="font-size: 36px;">read the latest</h1>
+      <p><a style="text-transform: lowercase; color: black; font-size:20px;" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></p>
       <a href="<?php the_permalink(); ?>"><button style="top: 38px;" class="button small">READ MORE</button></a>
     <?php endforeach; ?>
 </section>
