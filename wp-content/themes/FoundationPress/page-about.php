@@ -17,14 +17,8 @@
   </div>
 
   <div class="row">
-    <div class="columns small-12 medium-4 large-4 text-center">
-      <a href="http://198.58.102.147/skintherapy/products/"><button class="button small">Products</button></a>
-    </div>
-    <div class="columns small-12 medium-4 large-4 text-center">
-      <a href="http://198.58.102.147/skintherapy/services/"><button class="button small">Services</button></a>
-    </div>
-    <div class="columns small-12 medium-4 large-4 text-center">
-      <a href="http://198.58.102.147/skintherapy/blog/"><button class="button small">Learn More</button></a>
+    <div class="columns small-12 medium-12 large-12 text-center">
+      <a href="http://198.58.102.147/skintherapy/"><button class="button">GET STARTED</button></a>
     </div>
   </div>
 
