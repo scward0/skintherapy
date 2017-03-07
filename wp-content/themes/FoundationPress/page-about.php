@@ -15,13 +15,6 @@
       <?php the_field('content'); ?>
     </div>
   </div>
-
-  <div class="row">
-    <div class="columns small-12 medium-12 large-12 text-center">
-      <a href="http://198.58.102.147/skintherapy/"><button class="button">GET STARTED</button></a>
-    </div>
-  </div>
-
 </div>
 
 <?php get_footer(); ?>
