@@ -39,9 +39,9 @@
 
   		<div class="row">
   			<?php while ( have_posts() ) : the_post(); ?>
-  				<div class="columns small-12 medium-6 large-6 text-center" style="padding: 75px 50px;">
-  					<img src="<?php the_field('thumbnail'); ?>" alt="">
-  					<p style="font-size: 18px;"><?php the_title(); ?></p>
+  				<div class="columns small-12 medium-8 large-8" style="padding: 75px 50px;">
+  					<h3 style="font-size: 18px;"><?php the_title(); ?></h3>
+            <?php echo wp_trim_words( get_the_content(), 40, '...'); ?><br>
   					<a href="<?php the_permalink(); ?>"><button style="top: 0;" class="button small">READ MORE</button></a>
   				</div>
   			<?php endwhile; ?>
