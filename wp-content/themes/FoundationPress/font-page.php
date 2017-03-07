@@ -62,27 +62,31 @@
 </section>
 
 <section class="no- max container" id="book" style="background: url('<?php the_field('background_3') ?>'); margin-top: 100px; height: 80%; background-size: cover;">
-  <div class="headline headline3 invisible">
+  <div class="headline headline3 hidden-for-small-only">
     <div class="headline-border">
       <?php the_field('headline_3') ?>
     </div>
   </div>
 </section>
 
-<section class="show-for-small-only">
+<section class="show-for-small-only" style="margin-top: 100px;">
   <?php the_field('headline_3') ?>
 </section>
 
 <section class="no- max container" id="omega" style="background: url('<?php the_field('background_4') ?>'); margin-top: 100px; height: 80%; background-size: cover;">
-  <div class="headline headline4">
+  <div class="headline headline4 hidden-for-small-only">
     <div class="headline-border">
       <?php the_field('headline_4') ?>
     </div>
   </div>
 </section>
 
+<section class="show-for-small-only" style="margin-top: 100px;">
+  <?php the_field('headline_4') ?>
+</section>
+
 <section class="no- max container" id="cream" style="background: url('<?php the_field('background_5') ?>');  margin-top: 100px; height: 80%; background-size: cover;">
-  <div class="headline headline5">
+  <div class="headline headline5 hidden-for-small-only">
     <div class="headline-border text-center">
       <?php
         $args = array( 'numberposts' => 1 );
@@ -94,6 +98,17 @@
         <?php endforeach; ?>
     </div>
   </div>
+</section>
+
+<section class="show-for-small-only" style="margin-top: 100px;">
+  <?php
+    $args = array( 'numberposts' => 1 );
+    $lastposts = get_posts( $args );
+    foreach($lastposts as $post) : setup_postdata($post); ?>
+      <h1>read the latest</h1>
+      <p><a style="text-transform: lowercase; color: black;" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></p>
+      <a href="<?php the_permalink(); ?>"><button style="top: 38px;" class="button small">READ MORE</button></a>
+    <?php endforeach; ?>
 </section>
 
 <?php get_footer(); ?>
