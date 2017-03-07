@@ -10,24 +10,19 @@
   </div>
 </div>
 
-<div class="show-for-small-only mobile-section">
-  <?php get_header(); ?>
-  <img src="<?php the_field('parallax_background'); ?>" style="width: 100px;" alt="">
-  <?php the_field('headline'); ?>
-</div>
-
 <div class="mobile-subhead" style="margin-top: 100px; font-size: 18px;">
   <p class="text-center" style="padding: 0 15%;">
     The journey to achieving clear skin takes commitment and teamwork. Our comprehensive approach to treating acne without harsh prescriptions allows us to personalize your experience every step of the way. Together, we will create a plan that produces results.
     <br><br><br>
     <span class="title-hr">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    <br><br>
   </p>
 </div>
 
 <section class="container hide-for-small-only" id="road-map" style="background: url('<?php the_field('background_2') ?>'); margin-top: 100px; height: 80%; background-size: cover;">
   <div class="headline headline2">
     <div class="headline-border">
-      <?php the_field('headline_2') ?>
+      div style="margin: 50px 0;"><?php the_field('headline_2') ?></div>
     </div>
   </div>
 </section>
@@ -81,7 +76,7 @@
 </section>
 
 <section class="show-for-small-only mobile-section">
-  <img src="<?php the_field('background_3') ?>" style="width: 100%;" alt="">
+  <img src="<?php the_field('background_3') ?>" style="width: 100%; margin-top: 50px;" alt="">
   <div style="margin: 50px 0;"><?php the_field('headline_3') ?></div>
 </section>
 
