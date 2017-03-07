@@ -62,7 +62,7 @@
 </section>
 
 <section class="no- max container" id="book" style="background: url('<?php the_field('background_3') ?>'); margin-top: 100px; height: 80%; background-size: cover;">
-  <div class="headline headline3 hidden-for-small-only">
+  <div class="headline headline3 hide-for-small-only">
     <div class="headline-border">
       <?php the_field('headline_3') ?>
     </div>
