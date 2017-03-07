@@ -61,16 +61,17 @@
   </div>
 </section>
 
-<section class="no- max container" id="book" style="background: url('<?php the_field('background_3') ?>'); margin-top: 100px; height: 80%; background-size: cover;">
-  <div class="headline headline3 hide-for-small-only">
+<section class="hide-for-small-only container" id="book" style="background: url('<?php the_field('background_3') ?>'); margin-top: 100px; height: 80%; background-size: cover;">
+  <div class="headline headline3">
     <div class="headline-border">
       <?php the_field('headline_3') ?>
     </div>
   </div>
 </section>
 
-<section class="show-for-small-only mobile-section" style="margin-top: 100px;">
-  <?php the_field('headline_3') ?>
+<section class="show-for-small-only mobile-section">
+  <img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/03/room2.jpg" style="width: 100%;" alt="">
+  <div style="margin-top: 100px;"><?php the_field('headline_3') ?></div>
 </section>
 
 <section class="container" id="omega" style="background: url('<?php the_field('background_4') ?>'); margin-top: 100px; height: 80%; background-size: cover;">
