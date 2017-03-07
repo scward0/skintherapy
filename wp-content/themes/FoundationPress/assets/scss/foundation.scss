@@ -719,8 +719,8 @@ body {
 }
 
 .post-headline{
-  margin: 25px 0;
-  font-size: 28px;
+  margin: 100px 0;
+  font-size: 48px;
 }
 
 .subhead{
@@ -734,12 +734,9 @@ body {
   text-align: left !important;
 }
 
-.products h2{
-
-}
-
 @media screen and (max-width: 639px){
   .products p{
     padding: 0 15px !important;
+    text-align: left !important;
   }
 }

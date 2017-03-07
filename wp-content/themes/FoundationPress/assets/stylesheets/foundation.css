@@ -8129,8 +8129,8 @@ body {
   font-size: 16px; }
 
 .post-headline {
-  margin: 25px 0;
-  font-size: 28px; }
+  margin: 100px 0;
+  font-size: 48px; }
 
 .subhead {
   font-size: 20px; }
@@ -8142,6 +8142,7 @@ body {
 
 @media screen and (max-width: 639px) {
   .products p {
-    padding: 0 15px !important; } }
+    padding: 0 15px !important;
+    text-align: left !important; } }
 
 /*# sourceMappingURL=foundation.css.map */

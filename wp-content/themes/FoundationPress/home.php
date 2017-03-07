@@ -6,7 +6,7 @@
     <div class="headline secondary-headline">
       <div class="headline-border">
         <div class="text-center">
-          <p style="font-size: 20px;">blog</p>
+          <p style="font-size: 20px;">education</p>
           <h1>Ask the Esthetician</h1>
         </div>
       </div>

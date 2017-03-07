@@ -1,10 +1,6 @@
+<?php get_header(); ?>
 <div class="container">
-  <?php get_header(); ?>
-  <img class="hero" src="<?php the_field('hero'); ?>" width="100%" alt="">
-
   <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-
-
   <div class="row secondary">
     <div class="post-headline text-center">
       <?php the_title(); ?>

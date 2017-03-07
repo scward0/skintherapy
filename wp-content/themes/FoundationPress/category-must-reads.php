@@ -6,7 +6,7 @@
     <div class="headline secondary-headline">
       <div class="headline-border">
         <div class="text-center">
-          <p style="font-size: 16px;">education / blog</p>
+          <p style="font-size: 16px;">education</p>
           <h1>Must Reads</h1>
         </div>
       </div>
