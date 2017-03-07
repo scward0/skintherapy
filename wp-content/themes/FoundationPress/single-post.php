@@ -3,14 +3,14 @@
   <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
   <div class="row secondary">
     <div class="post-headline text-center">
-      <?php the_title(); ?>
+    <h1><?php the_title(); ?></h1>
     </div>
     <br><br>
     <p class="text-center"><span class="title-hr">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
   </div>
 
   <div class="row secondary">
-    <div class="content" style="padding 0 50px;">
+    <div class="content single-content" style="padding 0 50px;">
       <?php the_content(); ?>
     </div>
   </div>

@@ -8145,4 +8145,8 @@ body {
     padding: 0 15px !important;
     text-align: left !important; } }
 
+.single-content p {
+  font-size: 16px !important;
+  padding: 100px !important; }
+
 /*# sourceMappingURL=foundation.css.map */
