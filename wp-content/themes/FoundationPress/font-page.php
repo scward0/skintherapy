@@ -87,7 +87,7 @@
   <div style="margin: 50px 0;"><?php the_field('headline_4') ?></div>
 </section>
 
-<section class="container hide-for-small-only" id="cream" style="background: url('<?php the_field('background_5') ?>');  margin-top: 100px; height: 80%; background-size: cover;">
+<section class="container hide-for-small-only" id="cream" style="background: url('http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/bottom_blog.jpg');  margin-top: 100px; height: 80%; background-size: cover;">
   <div class="headline headline5 ">
     <div class="headline-border text-center">
       <?php
@@ -103,7 +103,7 @@
 </section>
 
 <section class="show-for-small-only text-center mobile-section">
-  <img src="<?php the_field('background_5') ?>" alt="">
+  <img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/bottom_blog.jpg" alt="" />
   <div style="margin: 50px 0;">
     <?php
       $args = array( 'numberposts' => 1 );
@@ -114,7 +114,6 @@
         <a href="<?php the_permalink(); ?>"><button style="top: 38px;" class="button small">READ MORE</button></a>
       <?php endforeach; ?>
   </div>
-
 </section>
 
 <?php get_footer(); ?>
