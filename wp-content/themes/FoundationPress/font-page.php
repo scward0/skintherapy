@@ -71,7 +71,7 @@
 
 <section class="show-for-small-only mobile-section">
   <img src="<?php the_field('background_3') ?>" style="width: 100%;" alt="">
-  <div style="margin-top: 100px;"><?php the_field('headline_3') ?></div>
+  <div style="margin: 50px 0;"><?php the_field('headline_3') ?></div>
 </section>
 
 <section class="container hide-for-small-only" id="omega" style="background: url('<?php the_field('background_4') ?>'); margin-top: 100px; height: 80%; background-size: cover;">
@@ -84,7 +84,7 @@
 
 <section class="show-for-small-only mobile-section" >
   <img src="<?php the_field('background_4') ?>" alt="">
-  <div style="margin-top: 100px;"><?php the_field('headline_4') ?></div>
+  <div style="margin: 50px 0;"><?php the_field('headline_4') ?></div>
 </section>
 
 <section class="container hide-for-small-only" id="cream" style="background: url('<?php the_field('background_5') ?>');  margin-top: 100px; height: 80%; background-size: cover;">
@@ -102,9 +102,9 @@
   </div>
 </section>
 
-<section class="show-for-small-only text-center mobile-section" >
+<section class="show-for-small-only text-center mobile-section">
   <img src="<?php the_field('background_5') ?>" alt="">
-  <div style="margin-top: 100px;">
+  <div style="margin: 50px 0;">
     <?php
       $args = array( 'numberposts' => 1 );
       $lastposts = get_posts( $args );
