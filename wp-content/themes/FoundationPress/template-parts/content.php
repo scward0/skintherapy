@@ -15,6 +15,11 @@
 		<h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
 		<?php foundationpress_entry_meta(); ?>
 	</div>
+	<style media="screen">
+		.entry-content p{
+			font-size: 16px;
+		}
+	</style>
 	<div class="entry-content">
 		<?php the_content( __( 'Continue reading...', 'foundationpress' ) ); ?>
 	</div>
