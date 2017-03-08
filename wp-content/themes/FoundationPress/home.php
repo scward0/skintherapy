@@ -74,7 +74,7 @@
       <div class="columns small-12 medium-4 large-4">
         <li id="archives"><?php _e('Archives:'); ?>
            <ul>
-             <?php wp_get_archives('type=monthly'); ?>
+             <?php wp_get_archives('type=yearly'); ?>
            </ul>
       </div>
 
