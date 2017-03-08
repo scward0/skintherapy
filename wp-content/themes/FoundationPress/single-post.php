@@ -14,6 +14,10 @@
       <?php the_content(); ?>
     </div>
   </div>
+
+  <div class="row text-center">
+    <a href="http://198.58.102.147/skintherapy/blog/"><button class="button small" name="button">LEARN MORE</button></a>
+  </div>
 </div>
 
 <?php endwhile; else : ?>
