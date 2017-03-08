@@ -8130,13 +8130,11 @@ body {
 
 .products p {
   font-size: 16px;
-  padding: 0;
-  text-align: left !important; }
+  padding: 0; }
 
 @media screen and (max-width: 639px) {
   .products p {
-    padding: 0 15px !important;
-    text-align: left !important; } }
+    padding: 0 15px !important; } }
 
 .single-content p {
   font-size: 16px !important;
