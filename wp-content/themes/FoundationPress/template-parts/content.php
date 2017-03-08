@@ -21,7 +21,11 @@
 		}
 	</style>
 	<div class="entry-content">
-		<?php the_content( __( 'Continue reading...', 'foundationpress' ) ); ?>
+		<div class="columns small-12" style="padding: 30px;">
+			<h3 style="font-size: 24px;"><?php the_title(); ?></h3>
+			<p style="font-size: 16px;"><?php echo wp_trim_words( get_the_content(), 40, '...'); ?></p><br><br>
+			<a href="<?php the_permalink(); ?>"><button style="top: 0;" class="button small">READ MORE</button></a>
+		</div>
 	</div>
 	<hr />
 </div>
