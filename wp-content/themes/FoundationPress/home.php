@@ -31,7 +31,7 @@
 
 
   <div class="row">
-
+    <div class="columns small-12 medium-8 large-8">
   		<?php do_action( 'foundationpress_before_content' ); ?>
 
 
@@ -39,7 +39,7 @@
 
   		<div class="row">
   			<?php while ( have_posts() ) : the_post(); ?>
-  				<div class="columns small-12 medium-8 large-8" style="padding: 30px;">
+  				<div class="columns small-12" style="padding: 30px;">
   					<h3 style="font-size: 24px;"><?php the_title(); ?></h3>
             <p style="font-size: 16px;"><?php echo wp_trim_words( get_the_content(), 40, '...'); ?></p><br><br>
   					<a href="<?php the_permalink(); ?>"><button style="top: 0;" class="button small">READ MORE</button></a>
@@ -69,7 +69,18 @@
   	<?php endif; ?>
 
   	<?php do_action( 'foundationpress_after_content' ); ?>
+      </div>
+
+      <div class="columns small-12 medium-4 large-4">
+        <li id="archives"><?php _e('Archives:'); ?>
+           <ul>
+             <?php wp_get_archives('type=monthly'); ?>
+           </ul>
+      </div>
 
   	</div>
+
+
+
   </div>
 <?php get_footer(); ?>
