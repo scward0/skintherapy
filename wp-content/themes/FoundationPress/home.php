@@ -72,10 +72,13 @@
       </div>
 
       <div class="columns small-12 medium-4 large-4">
-        <span class="blog-menu-item" id="archives"><?php _e('Archives:'); ?>
+        <!-- <span class="blog-menu-item" id="archives"><?php _e('Archives:'); ?>
            <ul style="list-style: none; font-size: 16px;">
              <?php wp_get_archives('type=yearly'); ?>
-           </ul>
+           </ul> -->
+
+
+        <?php get_sidebar(); ?>
       </div>
 
   	</div>
