@@ -33,14 +33,14 @@
 <section class="container hide-for-small-only" id="road-map" style="background: url('<?php the_field('background_2') ?>'); margin-top: 100px; height: 80%; background-size: cover;">
   <div class="headline headline2">
     <div class="headline-border">
-      <div style="margin: 50px 0;"><?php the_field('headline_2') ?></div>
+      <?php the_field('headline_2') ?>
     </div>
   </div>
 </section>
 
 <section class="show-for-small-only mobile-section">
   <img src="<?php the_field('background_2') ?>" alt="" />
-  <?php the_field('headline_2') ?>
+  <div style="margin: 50px 0;"><?php the_field('headline_2') ?></div>
 </section>
 
 <section class="no-max container" id="road-map-steps">

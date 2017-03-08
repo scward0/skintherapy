@@ -8143,6 +8143,9 @@ body {
   padding: 0 100px !important; }
 
 .mobile-section h1 {
-  font-size: 48px; }
+  font-size: 40px; }
+
+.headline3 {
+  width: 500px; }
 
 /*# sourceMappingURL=foundation.css.map */

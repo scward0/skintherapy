@@ -30,7 +30,7 @@
 		<div class="columns small-6">
 			<p style="text-align: right;">
 				801-800-6602<br>
-				utahacneclinic@hotmail.com
+				<a href="mailto:tahacneclinic@hotmail.com">utahacneclinic@hotmail.com</a>
 			</p>
 		</div>
 		<div class="columns small-6">
@@ -46,8 +46,8 @@
 			<div class="menu-centered">
 				<ul class="menu">
 					<li><a href="#"><img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/Instagram.png" alt=""></a></li>
-					<li><a href="#"><img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/Facebook.png" alt=""></a></li>
-					 <li><a href="#"><img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/Google.png" alt=""></a></li>
+					<li><a href="https://www.facebook.com/SkinTherapyClinic"><img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/Facebook.png" alt=""></a></li>
+					 <li><a href="https://plus.google.com/117597609329751713678?gl=us&hl=en"><img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/Google.png" alt=""></a></li>
 					 <li><a href="#"><img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/Pinterest.png" alt=""></a></li>
 			 	</ul>
 			</div>
