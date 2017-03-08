@@ -11,10 +11,10 @@
 ?>
 
 <div id="post-<?php the_ID(); ?>" <?php post_class('blogpost-entry'); ?>>
-	<header>
+	<div class="row">
 		<h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
 		<?php foundationpress_entry_meta(); ?>
-	</header>
+	</div>
 	<div class="entry-content">
 		<?php the_content( __( 'Continue reading...', 'foundationpress' ) ); ?>
 	</div>
