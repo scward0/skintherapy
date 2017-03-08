@@ -6,8 +6,8 @@
 				Salt Lake City, UT 84115
 			</p>
 			<ul class="menu menu-left align-right">
-				 <li><a href="#"><img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/Instagram.png" alt=""></a></li>
-				 <li><a href="#"><img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/Facebook.png" alt=""></a></li>
+				 <li><a href="https://www.instagram.com/utahacneclinic/"><img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/Instagram.png" alt=""></a></li>
+				 <li><a href="https://www.facebook.com/SkinTherapyClinic/"><img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/Facebook.png" alt=""></a></li>
  		 </ul>
 		</div>
 		<div class="columns small-12 medium-4 large-4 text-center">
@@ -20,7 +20,7 @@
 				utahacneclinic@hotmail.com
 			</p>
 			<ul class="menu menu-right">
-				 <li><a href="#"><img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/Google.png" alt=""></a></li>
+				 <li><a href="https://plus.google.com/117597609329751713678"><img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/Google.png" alt=""></a></li>
 				 <li><a href="#"><img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/Pinterest.png" alt=""></a></li>
 		 </ul>
 		</div>

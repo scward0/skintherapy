@@ -74,7 +74,7 @@
     </div>
   </div>
   <div class="row text-center in">
-    <button class="button small" style="top:0;">LEARN MORE</button>
+    <a href="http://198.58.102.147/skintherapy/acne-services/"><button class="button small" style="top:0;">LEARN MORE</button></a>
   </div>
 </section>
 
