@@ -6,8 +6,8 @@
 				Salt Lake City, UT 84115
 			</p>
 			<ul class="menu menu-left align-right">
-				 <li><a href="https://www.instagram.com/utahacneclinic/"><img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/Instagram.png" alt=""></a></li>
-				 <li><a href="https://www.facebook.com/SkinTherapyClinic/"><img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/Facebook.png" alt=""></a></li>
+				 <li><a target="_blank" href="https://www.instagram.com/utahacneclinic/"><img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/Instagram.png" alt=""></a></li>
+				 <li><a target="_blank" href="https://www.facebook.com/SkinTherapyClinic/"><img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/Facebook.png" alt=""></a></li>
  		 </ul>
 		</div>
 		<div class="columns small-12 medium-4 large-4 text-center">
@@ -20,8 +20,8 @@
 				utahacneclinic@hotmail.com
 			</p>
 			<ul class="menu menu-right">
-				 <li><a href="https://plus.google.com/117597609329751713678"><img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/Google.png" alt=""></a></li>
-				 <li><a href="https://www.yelp.com/biz/skintherapy-salt-lake-city-3"><img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/03/yelp-icon-1.png" width="50px" alt=""></a></li>
+				 <li><a target="_blank" href="https://plus.google.com/117597609329751713678"><img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/Google.png" alt=""></a></li>
+				 <li><a target="_blank" href="https://www.yelp.com/biz/skintherapy-salt-lake-city-3"><img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/03/yelp-icon-1.png" width="50px" alt=""></a></li>
 		 </ul>
 		</div>
 	</div>
@@ -45,10 +45,10 @@
 		<div class="columns small-12 text-center">
 			<div class="menu-centered">
 				<ul class="menu">
-					<li><a href="https://www.instagram.com/utahacneclinic/"><img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/Instagram.png" alt=""></a></li>
-					<li><a href="https://www.facebook.com/SkinTherapyClinic"><img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/Facebook.png" alt=""></a></li>
-					 <li><a href="https://plus.google.com/117597609329751713678?gl=us&hl=en"><img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/Google.png" alt=""></a></li>
-					 <li><a href="https://www.yelp.com/biz/skintherapy-salt-lake-city-3"><img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/03/yelp-icon-1.png" width="50px" alt=""></a></li>
+					<li><a target="_blank" href="https://www.instagram.com/utahacneclinic/"><img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/Instagram.png" alt=""></a></li>
+					<li><a target="_blank" href="https://www.facebook.com/SkinTherapyClinic"><img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/Facebook.png" alt=""></a></li>
+					 <li><a target="_blank" href="https://plus.google.com/117597609329751713678?gl=us&hl=en"><img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/Google.png" alt=""></a></li>
+					 <li><a target="_blank" href="https://www.yelp.com/biz/skintherapy-salt-lake-city-3"><img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/03/yelp-icon-1.png" width="50px" alt=""></a></li>
 			 	</ul>
 			</div>
 			<br>
