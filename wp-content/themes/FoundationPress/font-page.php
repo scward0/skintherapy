@@ -11,8 +11,8 @@
   </div>
 </div>
 
-<div class="show-for-small-only" style="background: url('<?php the_field('parallax_background'); ?>'); height: 100%; background-position: center; background-repeat: no-repeat; background-size: cover;">
-
+<div class="show-for-small-only">
+  <img src="<?php the_field('parallax_background'); ?>" alt="">
   <div class="headline" id="headline1">
     <div class="headline-border">
       <?php the_field('headline'); ?>
