@@ -13,11 +13,7 @@
 
 <div class="show-for-small-only">
   <img src="<?php the_field('parallax_background'); ?>" alt="" style="margin-top: 150px;">
-  <div class="headline" id="headline1">
-    <div class="headline-border">
-      <?php the_field('headline'); ?>
-    </div>
-  </div>
+  <div><?php the_field('headline'); ?></div>
 </div>
 
 
