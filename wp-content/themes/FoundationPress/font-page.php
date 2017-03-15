@@ -12,7 +12,7 @@
 </div>
 
 <div class="show-for-small-only mobile-section">
-  <img src="<?php the_field('parallax_background'); ?>" alt="" style="margin-top: 150px;">
+  <img src="<?php the_field('parallax_background'); ?>" alt="" style="margin-top: 150px;"><br>
   <div><?php the_field('headline'); ?></div>
 </div>
 
