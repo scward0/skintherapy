@@ -34,21 +34,7 @@
             <img src="<?php the_field('after'); ?>" alt="">
           </div>
         </div>
-        <!-- <p class="text-center"><span class="title-hr">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p> -->
       <?php endwhile; endif; wp_reset_postdata(); ?>
-
-
-
-      <!-- <?php
-        if ( function_exists( 'foundationpress_pagination' ) ) :
-          foundationpress_pagination();
-        elseif ( is_paged() ) :
-        ?>
-          <nav id="post-nav">
-            <div class="post-previous"><?php next_posts_link( __( '&larr; Older posts', 'foundationpress' ) ); ?></div>
-            <div class="post-next"><?php previous_posts_link( __( 'Newer posts &rarr;', 'foundationpress' ) ); ?></div>
-          </nav>
-        <?php endif; ?> -->
 
       </div>
       <div class="columns small-12 medium-12 large-4 testimonials">
