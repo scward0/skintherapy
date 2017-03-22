@@ -20,7 +20,6 @@
 <div class="mobile-subhead" style="margin-top: 100px; font-size: 18px;">
   <p class="text-center" style="padding: 0 15%;">
     <?php the_field('subhead'); ?>
-  The journey to achieving clear skin takes commitment and teamwork. Our comprehensive approach to treating acne without harsh prescriptions allows us to personalize your experience every step of the way. Together, we will create a plan that produces results.
   <br><br><br>
   <span class="title-hr">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
   <br><br>
