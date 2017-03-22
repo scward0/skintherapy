@@ -18,12 +18,10 @@
 
 
 <div class="mobile-subhead" style="margin-top: 100px; font-size: 18px;">
-  <p class="text-center" style="padding: 0 15%;">
-    <?php the_field('subhead'); ?>
+  <?php the_field('subhead'); ?>
   <br><br><br>
   <span class="title-hr">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
   <br><br>
-</p>
 </div>
 
 <section class="container hide-for-small-only" id="road-map" style="background: url('<?php the_field('background_2') ?>'); margin-top: 100px; height: 80%; background-size: cover;">
@@ -53,7 +51,7 @@
       <div class="up">
         <div class="text-center"><img src="http://198.58.102.147/skintherapy/wp-content/uploads/2017/02/treat.png" style="max-width: 300px;" alt=""></div>
         <h4>2. treat</h4>
-        <p>We create a long-term skin care program just for you, based on your skin and acne type.</p>
+        <p>We create a long-term skin care treatment program just for you, based on your skin and acne type.</p>
       </div>
     </div>
     <div class="columns small-12 show-for-small-only step">
