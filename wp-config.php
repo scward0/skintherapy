@@ -31,6 +31,17 @@ define('DB_PASSWORD', 'SilverH3elm1!');
 
 
 
+// Live Server
+// define('DB_NAME', 'acneyzjc_skintherapy');
+//
+// /** MySQL database username */
+// define('DB_USER', 'acneyzjc_root');
+//
+// /** MySQL database password */
+// define('DB_PASSWORD', '(_,E1xpA(ZK]');
+
+
+
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
