@@ -17,7 +17,7 @@
 </div>
 
 
-<div class="mobile-subhead" style="margin-top: 100px; font-size: 18px;">
+<div class="mobile-subhead text-center" style="margin-top: 100px; font-size: 18px;">
   <?php the_field('subhead'); ?>
   <br><br><br>
   <span class="title-hr">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
