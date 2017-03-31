@@ -7947,6 +7947,14 @@ body {
   .headline4 {
     height: 311px; } }
 
+@media screen and (min-width: 1462px) and (max-width: 1524px) {
+  .headline4 {
+    height: 277px; } }
+
+@media screen and (min-width: 1441px) and (max-width: 1461px) {
+  .headline4 {
+    height: 311px; } }
+
 .button {
   background-color: black !important;
   -webkit-box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
