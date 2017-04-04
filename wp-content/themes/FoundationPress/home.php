@@ -7,7 +7,7 @@
       <div class="headline-border">
         <div class="text-center">
           <p style="font-size: 20px;">education</p>
-          <h1>ask the asthetician</h1>
+          <h1>ask the esthetician</h1>
         </div>
       </div>
     </div>
